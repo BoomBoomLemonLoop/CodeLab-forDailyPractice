@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-18",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14",
+  "dependencies": {
+    "numpy": "2.5.5",
+    "pytest": "9.2.0",
+    "ruff": "0.17.5",
+    "cantera": "3.2.0",
+    "ruamel.yaml": "0.19.1",
+    "typing_extensions": "4.16.0",
+    "colorama": "0.4.6",
+    "iniconfig": "2.3.1",
+    "packaging": "26.3",
+    "pluggy": "1.7.0",
+    "pygments": "2.21.0"
+  },
+  "diffusion": [
+    {
+      "cells": 20,
+      "l2_rms": 0.0014557255136761736,
+      "linf": 0.0020523604586372146
+    },
+    {
+      "cells": 40,
+      "l2_rms": 0.000363594644987886,
+      "linf": 0.0005138040482145501
+    },
+    {
+      "cells": 80,
+      "l2_rms": 9.087763472487413e-05,
+      "linf": 0.00012849561001759824
+    }
+  ],
+  "ignition": [
+    {
+      "cantera_version": "3.2.0",
+      "mechanism": "h2o2.yaml",
+      "mechanism_sha256": "0efc6c52862741a29e0c29b65d979c7d8cb409db5282bca83b9c5437b3d8c8d4",
+      "temperature_K": 1000.0,
+      "pressure_Pa": 101325.0,
+      "phi": 1.0,
+      "end_time_s": 0.002,
+      "samples": 2001,
+      "rtol": 1e-09,
+      "atol": 1e-15,
+      "definition": "interior maximum of sampled dT/dt; temperature rise >100 K",
+      "ignition_resolved": true,
+      "ignition_delay_s": 0.000305,
+      "final_temperature_K": 2908.623542207421,
+      "final_pressure_Pa": 262593.70182772016,
+      "relative_energy_drift": 2.236223291554893e-07,
+      "relative_mass_drift": 0.0
+    },
+    {
+      "cantera_version": "3.2.0",
+      "mechanism": "h2o2.yaml",
+      "mechanism_sha256": "0efc6c52862741a29e0c29b65d979c7d8cb409db5282bca83b9c5437b3d8c8d4",
+      "temperature_K": 1000.0,
+      "pressure_Pa": 101325.0,
+      "phi": 1.0,
+      "end_time_s": 0.002,
+      "samples": 4001,
+      "rtol": 1e-09,
+      "atol": 1e-15,
+      "definition": "interior maximum of sampled dT/dt; temperature rise >100 K",
+      "ignition_resolved": true,
+      "ignition_delay_s": 0.0003055,
+      "final_temperature_K": 2908.6235424966217,
+      "final_pressure_Pa": 262593.70184698753,
+      "relative_energy_drift": 2.2380906321681098e-07,
+      "relative_mass_drift": 0.0
+    }
+  ],
+  "source_sha256": {
+    "tests/conftest.py": "7a471a5a20138537e9c2d53b3e9f27a584e1f779d778058ee1782bf3f6d1a1bc",
+    "tests/test_diffusion.py": "7d3e33005851cf1a0359617401b8cb641a534a2bf7cdd09f0a57cad44b093274",
+    "tests/test_ignition.py": "88ee7a45bc370524600e7ec632060955b0c7cfce479c05e42962b6db625844ba",
+    "fundamentals/finite-volume-method/01-diffusion/diffusion.py": "00f2300128a13b851199298015e229c554584d1ac7b20f2bf8cbf1a86f5170e7",
+    "simulations/cantera/zero-dimensional-ignition/ignition.py": "340ed1811aeded2bb6cb2f36f8822d904b80f436844da55d6153bea4948e3df3",
+    "src/codelab/__init__.py": "fca8db451fa4722b48fb1795bc9945d687c37cd867e833ddff250018fc4a75e5"
+  }
+}
