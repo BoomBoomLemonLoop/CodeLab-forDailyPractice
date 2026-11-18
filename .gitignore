@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+outputs/
+scratch/
+**/results/intermediate/
+**/data/raw/
+*.cas
+*.cas.h5
+*.dat.h5
+*.foam
+**/processor*/
+**/postProcessing/
+# OpenFOAM time directories: use a case-local ignore after creating a real case.
