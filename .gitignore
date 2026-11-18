@@ -1,4 +1,6 @@
 .venv/
+# Local user-supplied integration input; retained on disk, not a second project tree.
+/CodeLab-for-DailyPractice-study-scaffold/
 __pycache__/
 *.py[cod]
 .pytest_cache/
