@@ -21,7 +21,10 @@ Moukalled、Mangani、Darwish《The Finite Volume Method in Computational Fluid 
 | TVC / 压气机 / 代理优化 | [原创研究](../research/README.md) | 将验证过的学习工具用于明确研究问题；0D 延迟不等于稳焰能力 | Planned |
 | emu 论文复现 | [已有案例](../reproductions/papers/emu-2024-surrogate/README.md) | 先确认原文、目标图表和指标，不能从目录名推测内容 | Planned |
 
-本表是唯一当前学习映射；长期技能参考 [learning-roadmap.md](learning-roadmap.md)。
+本表是当前章节、代码归属与状态的唯一维护表；跨资料先修关系与模型差异见
+[知识关联图](../references/learning-map.md)，资料阅读范围见
+[资料索引](../references/materials-index.md)，实际学习证据见 [学习进度](learning-progress.md)。
+长期技能参考 [learning-roadmap.md](learning-roadmap.md)，不预设所有教材必须学完。
 状态沿用根 README：Planned、Implemented、Tested、Validated，阅读进度与代码状态分开记录。
 每次任务按 [study-tasks.md](study-tasks.md) 建立一条记录；完成后更新这里的案例链接和证据，
 不提前生成未来章节的脚本。没有代码的目录只有说明，不意味着可运行。

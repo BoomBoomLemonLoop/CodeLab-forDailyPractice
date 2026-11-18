@@ -1,5 +1,8 @@
 # 参考资料索引
 
+本地教材/论文等的接入与阅读范围见 [资料索引](materials-index.md)，
+跨教材先修关系与模型边界见 [知识关联](learning-map.md)。原始资料不随 Git 提交。
+
 当前教材对应与学习时机见 [GitHub 收藏用途](starred-github.md) 和
 [学习映射](../docs/study-map.md)。本页继续维护项目背景与许可核查记录。
 
