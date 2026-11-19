@@ -1,0 +1,34 @@
+{
+  "status": "ILLUSTRATIVE_NOT_CALIBRATED",
+  "geometry": {
+    "height_definition": "upright vertical rise between rounded valley start and inner lip seam",
+    "upright_valley_rise_m": 0.045,
+    "included_angle_deg": 60.0,
+    "inner_radius_m": 0.005,
+    "thickness_m": 0.0012,
+    "lip_radius_m": 0.0006,
+    "outlet_depth_m": 0.025,
+    "outlet_depth_status": "independent illustrative transverse depth, not the specified 45 mm height",
+    "upright_beta_deg": 70.0
+  },
+  "rotation": {
+    "pivot_body_m": [0.0, 0.0, 0.0],
+    "pivot_world_m": [0.0, 0.0, 0.0]
+  },
+  "case1": {
+    "beta_start_deg": 55.0,
+    "rate_deg_s": 10.0,
+    "duration_s": 3.0,
+    "initial_depth_world_m": 0.0,
+    "H_mode": "linear_between_endpoint_events"
+  },
+  "case2": {
+    "absolute_pose_status": "PROVISIONAL user kinematic convention; not measured",
+    "beta_start_deg": 70.0,
+    "rate_deg_s": 10.0,
+    "duration_s": 1.5,
+    "initial_depth_world_m": 0.01,
+    "initial_depth_sensitivity_m": [0.005, 0.01, 0.015],
+    "H_mode": "linear_between_endpoint_events"
+  }
+}

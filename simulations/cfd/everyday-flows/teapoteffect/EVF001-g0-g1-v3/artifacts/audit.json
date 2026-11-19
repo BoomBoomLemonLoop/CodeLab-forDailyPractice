@@ -1,0 +1,176 @@
+{
+  "status": "Implemented/Tested geometric example, NOT physically Validated",
+  "python": "3.12.14",
+  "numpy": "2.5.5",
+  "matplotlib": "3.11.2",
+  "parameters": {
+    "status": "ILLUSTRATIVE_NOT_CALIBRATED",
+    "geometry": {
+      "height_definition": "upright vertical rise between rounded valley start and inner lip seam",
+      "upright_valley_rise_m": 0.045,
+      "included_angle_deg": 60.0,
+      "inner_radius_m": 0.005,
+      "thickness_m": 0.0012,
+      "lip_radius_m": 0.0006,
+      "outlet_depth_m": 0.025,
+      "outlet_depth_status": "independent illustrative transverse depth, not the specified 45 mm height",
+      "upright_beta_deg": 70.0,
+      "length_m": 0.04788799976141605
+    },
+    "rotation": {
+      "pivot_body_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pivot_world_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "case1": {
+      "beta_start_deg": 55.0,
+      "rate_deg_s": 10.0,
+      "duration_s": 3.0,
+      "initial_depth_world_m": 0.0,
+      "H_mode": "linear_between_endpoint_events"
+    },
+    "case2": {
+      "absolute_pose_status": "PROVISIONAL user kinematic convention; not measured",
+      "beta_start_deg": 70.0,
+      "rate_deg_s": 10.0,
+      "duration_s": 1.5,
+      "initial_depth_world_m": 0.01,
+      "initial_depth_sensitivity_m": [
+        0.005,
+        0.01,
+        0.015
+      ],
+      "H_mode": "linear_between_endpoint_events"
+    }
+  },
+  "vertices": 9929,
+  "triangles": 19854,
+  "edges_not_two_incident_faces": 0,
+  "signed_solid_volume_m3": 2.030156712375482e-06,
+  "bounds_spout_m": [
+    [
+      0.0,
+      -0.0183597385602301,
+      -0.0012
+    ],
+    [
+      0.04848799976141605,
+      0.0183597385602301,
+      0.025
+    ]
+  ],
+  "case_events": {
+    "case1": {
+      "initial": {
+        "time_s": 0.0,
+        "beta_deg": 55.0,
+        "H_world_m": 0.0,
+        "valley_front_s_m": 0.0,
+        "extrapolated_plane_valley_s_m": 0.0,
+        "inner_submerged_area_m2": 0.0,
+        "lip_crest_clearance_m": 0.039483407039664076,
+        "max_side_rim_submergence_m": 0.0,
+        "P_upstream_m": 0.0,
+        "b_upstream_m": 0.0,
+        "A_upstream_m2": 0.0,
+        "P_mid_m": 0.0,
+        "b_mid_m": 0.0,
+        "A_mid_m2": 0.0,
+        "P_outlet_m": 0.0,
+        "b_outlet_m": 0.0,
+        "A_outlet_m2": 0.0,
+        "V_submerged_trough_m3": 0.0,
+        "intersection_length_inner_m": 0.0,
+        "geometric_front_ds_dt_m_s_NOT_FLUID_U": 0.008257083629208826
+      },
+      "arrival": {
+        "time_s": 3.0,
+        "beta_deg": 25.0,
+        "H_world_m": 0.020294558545186688,
+        "valley_front_s_m": 0.04788799976141605,
+        "extrapolated_plane_valley_s_m": 0.04802101655900181,
+        "inner_submerged_area_m2": 0.0008737665841278342,
+        "lip_crest_clearance_m": 0.0,
+        "max_side_rim_submergence_m": 0.020294558545186688,
+        "P_upstream_m": 0.010471900747762972,
+        "b_upstream_m": 0.008660254037844387,
+        "A_upstream_m2": 1.5353873595383404e-05,
+        "P_mid_m": 0.030626730443235318,
+        "b_mid_m": 0.018737668885580563,
+        "A_mid_m2": 0.00013490878246084171,
+        "P_outlet_m": 0.0015765367066492252,
+        "b_outlet_m": 0.0015700194227495725,
+        "A_outlet_m2": 6.490039496375792e-08,
+        "V_submerged_trough_m3": 2.8088933205639544e-06,
+        "intersection_length_inner_m": 0.05943462473279751,
+        "geometric_front_ds_dt_m_s_NOT_FLUID_U": null
+      }
+    },
+    "case2": {
+      "initial": {
+        "time_s": 0.0,
+        "beta_deg": 70.0,
+        "H_world_m": 0.01,
+        "valley_front_s_m": 0.010641777724759122,
+        "extrapolated_plane_valley_s_m": 0.010641777724759122,
+        "inner_submerged_area_m2": 0.00010313569799435884,
+        "lip_crest_clearance_m": 0.0353947879140046,
+        "max_side_rim_submergence_m": 0.01,
+        "P_upstream_m": 0.010471900747762967,
+        "b_upstream_m": 0.008660254037844387,
+        "A_upstream_m2": 1.53538735953834e-05,
+        "P_mid_m": 0.0,
+        "b_mid_m": 0.0,
+        "A_mid_m2": 0.0,
+        "P_outlet_m": 0.0,
+        "b_outlet_m": 0.0,
+        "A_outlet_m2": 0.0,
+        "V_submerged_trough_m3": 1.6235222052175634e-07,
+        "intersection_length_inner_m": 0.01592175340863903,
+        "geometric_front_ds_dt_m_s_NOT_FLUID_U": 0.02159254164768737
+      },
+      "arrival": {
+        "time_s": 1.5,
+        "beta_deg": 55.0,
+        "H_world_m": 0.039483407039664076,
+        "valley_front_s_m": 0.04788799976141605,
+        "extrapolated_plane_valley_s_m": 0.04820033999174709,
+        "inner_submerged_area_m2": 0.0012462872986046673,
+        "lip_crest_clearance_m": 0.0,
+        "max_side_rim_submergence_m": 0.039483407039664076,
+        "P_upstream_m": 0.010471900747762965,
+        "b_upstream_m": 0.008660254037844387,
+        "A_upstream_m2": 1.5353873595383407e-05,
+        "P_mid_m": 0.033565911515348,
+        "b_mid_m": 0.0202072594216369,
+        "A_mid_m2": 0.00015969144089279005,
+        "P_outlet_m": 0.0042556133672111305,
+        "b_outlet_m": 0.004128260472080693,
+        "A_outlet_m2": 1.238896973272287e-06,
+        "V_submerged_trough_m3": 5.587291635430721e-06,
+        "intersection_length_inner_m": 0.04988789115059168,
+        "geometric_front_ds_dt_m_s_NOT_FLUID_U": null
+      }
+    }
+  },
+  "fluid_velocity": null,
+  "flow_rate": null,
+  "inner_seam_contact_time_s": {
+    "case1": 2.9960794392852543,
+    "case2": 1.4895327577801405
+  },
+  "film_thickness": null,
+  "total_kettle_water_volume_conservation": "NOT TESTABLE: reservoir and fill missing; H is explicit illustrative input",
+  "source_sha256": {
+    "geometry.py": "d116de8f6f8ecbd1b73f56a6b13ff23f4b3974070b27ff923fe1b2ee66990727",
+    "run_g0.py": "c0372799955b123bea74cd3105a8df13ddfdb5f0775616b2821e09a0ef21553d",
+    "parameters.json": "d2bf84a771634f32d86bd0bb56b3a16cf016537a3033e19c3f5b09d17cba17da"
+  }
+}

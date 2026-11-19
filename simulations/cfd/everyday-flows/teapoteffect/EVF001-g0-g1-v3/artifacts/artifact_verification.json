@@ -1,0 +1,91 @@
+{
+  "XML_files": 168,
+  "PVD_time_samples": {
+    "case1.pvd": 21,
+    "case2.pvd": 21
+  },
+  "images": {
+    "case2_depth_sensitivity.png": {
+      "size": [
+        1500,
+        600
+      ],
+      "frames": 1
+    },
+    "geometry_views.png": {
+      "size": [
+        1760,
+        1280
+      ],
+      "frames": 1
+    },
+    "immersion_curves.png": {
+      "size": [
+        1760,
+        1600
+      ],
+      "frames": 1
+    },
+    "intersection_arrival.png": {
+      "size": [
+        1800,
+        840
+      ],
+      "frames": 1
+    },
+    "intersection_initial.png": {
+      "size": [
+        1800,
+        840
+      ],
+      "frames": 1
+    },
+    "intersection_middle.png": {
+      "size": [
+        1800,
+        840
+      ],
+      "frames": 1
+    },
+    "outlet_detail.png": {
+      "size": [
+        1500,
+        600
+      ],
+      "frames": 1
+    },
+    "immersion_3d.gif": {
+      "size": [
+        1200,
+        560
+      ],
+      "frames": 41
+    }
+  },
+  "area_checks": [
+    {
+      "case": "case1",
+      "time_s": 1.5,
+      "reference_m2": 0.00016105824262653288,
+      "relative_error": 0.00028813449450936537
+    },
+    {
+      "case": "case1",
+      "time_s": 3.0,
+      "reference_m2": 0.000873856140273621,
+      "relative_error": 0.00010248385478954043
+    },
+    {
+      "case": "case2",
+      "time_s": 0.75,
+      "reference_m2": 0.0004953584984548402,
+      "relative_error": 0.00011091711736668318
+    },
+    {
+      "case": "case2",
+      "time_s": 1.5,
+      "reference_m2": 0.0012463647541355255,
+      "relative_error": 6.214515502085318e-05
+    }
+  ]
+}
