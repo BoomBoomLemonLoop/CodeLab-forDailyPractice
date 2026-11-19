@@ -1,0 +1,274 @@
+[
+  {
+    "Path": "EVF001_研究方案与Codex实施任务书.md",
+    "Hash": "28A4F9C7E3AD73525705866BB8594D0D75B405D8CF2B15D40BCF381101F172C1"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/.gitignore",
+    "Hash": "EE27DA6C7BF1C00BC04352B00637D44A6F31A8066990CBB41B2019816058B104"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/check_scaffold.py",
+    "Hash": "247755BEA3B0D0E5419FEB989926730602E1C5D1CB5C5F229B28A380A540B980"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/geometry_preview.png",
+    "Hash": "5ACBC9EE37DB984834EBECDF659BB64886DC771C2A70C0A0B73F6E64F52F0837"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/make_cases.py",
+    "Hash": "A384715AAF28F1F04D321CE95ECE22EAF8AAD9CB1B9AAF5364CF76514B4220F5"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/plot_geometry.py",
+    "Hash": "6FE48CC7236036FBA6ABBC2872A85FAFB3CE580EBEC65E6F291BB4E41204489A"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/README.md",
+    "Hash": "7A605B4D07DF0647937F86AE87DDEE4E7A95ADAF0FC4BA31E205B81DCAA0B403"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/run_one.sh",
+    "Hash": "D7B44FAA6DEDD9F6BE77F378E88913C88A5D76573B7994964ED4245607A99512"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/parameters.txt",
+    "Hash": "507533526077D8E99598A9E1D2FA70FDE793822D836FA42C7BC9D8B804B937B4"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/0/alpha.water",
+    "Hash": "1E61616687F29A1EC5CA2DA6430173EBA6AF2A6E8E1D1F301A833BA30E8425DC"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/0/p_rgh",
+    "Hash": "270C3E176A688BEB2CD4000D6C42E5A7E4F214C15ED9895FD8CDC9AAE40E7CF8"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/0/U",
+    "Hash": "A368FEEE79492D053506ADBC9800BE5AE1E42D7F3F9BBF4A79BF0FFDCA8CF0AD"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/constant/g",
+    "Hash": "1018D9AB7DFAA10509BDD44BB658F4F3F8117D4CD5803921EB8E5B58B6BA9EFC"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/constant/transportProperties",
+    "Hash": "44379E7B1DBD0F7CE9F53EB59A8F9014A207EB6B8190D00818EB7424F8048C0A"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/constant/turbulenceProperties",
+    "Hash": "EB54DB6A9605181B3AA51DDE7C8DD8E1037E9C889F394FBEBBD659C25053893C"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/system/blockMeshDict",
+    "Hash": "4850D3901435A9BD989992B0F4479980B1822C7FF2D52B0A1FE66316A77AE0D9"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/system/controlDict",
+    "Hash": "61E73AFAFE0599DBB343ED524CC4F15540446FA8481B804BD0A1C7D29DC32012"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/system/fvSchemes",
+    "Hash": "D3D67B2777A8AA7E2A8E9447AA85CFAFC0D7AEF8CC2870ACF8F4060013B8000D"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/system/fvSolution",
+    "Hash": "1FC95D189532D7919E998439CF8FA299014A2AC2FE86ABCF9133347DBF8AFFD6"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/01_low_5deg/system/setFieldsDict",
+    "Hash": "D5DD5F6FBACAF6F6119A91AC1ADDD5E1C2044BC9F752D356A10D93D02FCF04A7"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/parameters.txt",
+    "Hash": "32681800C652B149EC73014A5A0C4459E192A370F621975973940D49B7B0592A"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/0/alpha.water",
+    "Hash": "1E61616687F29A1EC5CA2DA6430173EBA6AF2A6E8E1D1F301A833BA30E8425DC"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/0/p_rgh",
+    "Hash": "270C3E176A688BEB2CD4000D6C42E5A7E4F214C15ED9895FD8CDC9AAE40E7CF8"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/0/U",
+    "Hash": "A368FEEE79492D053506ADBC9800BE5AE1E42D7F3F9BBF4A79BF0FFDCA8CF0AD"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/constant/g",
+    "Hash": "1018D9AB7DFAA10509BDD44BB658F4F3F8117D4CD5803921EB8E5B58B6BA9EFC"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/constant/transportProperties",
+    "Hash": "44379E7B1DBD0F7CE9F53EB59A8F9014A207EB6B8190D00818EB7424F8048C0A"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/constant/turbulenceProperties",
+    "Hash": "EB54DB6A9605181B3AA51DDE7C8DD8E1037E9C889F394FBEBBD659C25053893C"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/system/blockMeshDict",
+    "Hash": "4850D3901435A9BD989992B0F4479980B1822C7FF2D52B0A1FE66316A77AE0D9"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/system/controlDict",
+    "Hash": "61E73AFAFE0599DBB343ED524CC4F15540446FA8481B804BD0A1C7D29DC32012"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/system/fvSchemes",
+    "Hash": "D3D67B2777A8AA7E2A8E9447AA85CFAFC0D7AEF8CC2870ACF8F4060013B8000D"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/system/fvSolution",
+    "Hash": "1FC95D189532D7919E998439CF8FA299014A2AC2FE86ABCF9133347DBF8AFFD6"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/02_high_5deg/system/setFieldsDict",
+    "Hash": "7BF44DF9E71954AC3F349BD301188F07D7C407020A1FC260D2CA61C8287FEFB9"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/parameters.txt",
+    "Hash": "2DEBF20A300589064A7F6626D5313B16536E28E175295AA9FEC19F6BA5071C06"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/0/alpha.water",
+    "Hash": "DE3119819407C7065C763C5482236014C9645BF0F3502CC1DE15A657B6A2546F"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/0/p_rgh",
+    "Hash": "270C3E176A688BEB2CD4000D6C42E5A7E4F214C15ED9895FD8CDC9AAE40E7CF8"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/0/U",
+    "Hash": "A368FEEE79492D053506ADBC9800BE5AE1E42D7F3F9BBF4A79BF0FFDCA8CF0AD"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/constant/g",
+    "Hash": "1018D9AB7DFAA10509BDD44BB658F4F3F8117D4CD5803921EB8E5B58B6BA9EFC"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/constant/transportProperties",
+    "Hash": "44379E7B1DBD0F7CE9F53EB59A8F9014A207EB6B8190D00818EB7424F8048C0A"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/constant/turbulenceProperties",
+    "Hash": "EB54DB6A9605181B3AA51DDE7C8DD8E1037E9C889F394FBEBBD659C25053893C"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/system/blockMeshDict",
+    "Hash": "4850D3901435A9BD989992B0F4479980B1822C7FF2D52B0A1FE66316A77AE0D9"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/system/controlDict",
+    "Hash": "61E73AFAFE0599DBB343ED524CC4F15540446FA8481B804BD0A1C7D29DC32012"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/system/fvSchemes",
+    "Hash": "D3D67B2777A8AA7E2A8E9447AA85CFAFC0D7AEF8CC2870ACF8F4060013B8000D"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/system/fvSolution",
+    "Hash": "1FC95D189532D7919E998439CF8FA299014A2AC2FE86ABCF9133347DBF8AFFD6"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/03_high_5deg_nonwet/system/setFieldsDict",
+    "Hash": "7BF44DF9E71954AC3F349BD301188F07D7C407020A1FC260D2CA61C8287FEFB9"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/parameters.txt",
+    "Hash": "78AC5F1C2E72DAB26ECEA59DA84A541C07A0D4B33C42C69887E3B98773B9EC4F"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/0/alpha.water",
+    "Hash": "1E61616687F29A1EC5CA2DA6430173EBA6AF2A6E8E1D1F301A833BA30E8425DC"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/0/p_rgh",
+    "Hash": "270C3E176A688BEB2CD4000D6C42E5A7E4F214C15ED9895FD8CDC9AAE40E7CF8"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/0/U",
+    "Hash": "A368FEEE79492D053506ADBC9800BE5AE1E42D7F3F9BBF4A79BF0FFDCA8CF0AD"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/constant/g",
+    "Hash": "79E9972007AAC6311FE9575995A2C13D97802C6762B795FA6F27F23F57611D7C"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/constant/transportProperties",
+    "Hash": "44379E7B1DBD0F7CE9F53EB59A8F9014A207EB6B8190D00818EB7424F8048C0A"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/constant/turbulenceProperties",
+    "Hash": "EB54DB6A9605181B3AA51DDE7C8DD8E1037E9C889F394FBEBBD659C25053893C"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/system/blockMeshDict",
+    "Hash": "4850D3901435A9BD989992B0F4479980B1822C7FF2D52B0A1FE66316A77AE0D9"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/system/controlDict",
+    "Hash": "61E73AFAFE0599DBB343ED524CC4F15540446FA8481B804BD0A1C7D29DC32012"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/system/fvSchemes",
+    "Hash": "D3D67B2777A8AA7E2A8E9447AA85CFAFC0D7AEF8CC2870ACF8F4060013B8000D"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/system/fvSolution",
+    "Hash": "1FC95D189532D7919E998439CF8FA299014A2AC2FE86ABCF9133347DBF8AFFD6"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/04_low_18deg/system/setFieldsDict",
+    "Hash": "D5DD5F6FBACAF6F6119A91AC1ADDD5E1C2044BC9F752D356A10D93D02FCF04A7"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/parameters.txt",
+    "Hash": "B8D9FC7F41405E6C459EA7E58B91E43D57A588D32D4BC39E5F1FC5352AEB6370"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/0/alpha.water",
+    "Hash": "1E61616687F29A1EC5CA2DA6430173EBA6AF2A6E8E1D1F301A833BA30E8425DC"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/0/p_rgh",
+    "Hash": "270C3E176A688BEB2CD4000D6C42E5A7E4F214C15ED9895FD8CDC9AAE40E7CF8"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/0/U",
+    "Hash": "A368FEEE79492D053506ADBC9800BE5AE1E42D7F3F9BBF4A79BF0FFDCA8CF0AD"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/constant/g",
+    "Hash": "79E9972007AAC6311FE9575995A2C13D97802C6762B795FA6F27F23F57611D7C"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/constant/transportProperties",
+    "Hash": "44379E7B1DBD0F7CE9F53EB59A8F9014A207EB6B8190D00818EB7424F8048C0A"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/constant/turbulenceProperties",
+    "Hash": "EB54DB6A9605181B3AA51DDE7C8DD8E1037E9C889F394FBEBBD659C25053893C"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/system/blockMeshDict",
+    "Hash": "4850D3901435A9BD989992B0F4479980B1822C7FF2D52B0A1FE66316A77AE0D9"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/system/controlDict",
+    "Hash": "61E73AFAFE0599DBB343ED524CC4F15540446FA8481B804BD0A1C7D29DC32012"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/system/fvSchemes",
+    "Hash": "D3D67B2777A8AA7E2A8E9447AA85CFAFC0D7AEF8CC2870ACF8F4060013B8000D"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/system/fvSolution",
+    "Hash": "1FC95D189532D7919E998439CF8FA299014A2AC2FE86ABCF9133347DBF8AFFD6"
+  },
+  {
+    "Path": "kettle-spout-vof-openfoam-v2606/kettle-spout-vof/cases/05_high_18deg/system/setFieldsDict",
+    "Hash": "7BF44DF9E71954AC3F349BD301188F07D7C407020A1FC260D2CA61C8287FEFB9"
+  }
+]

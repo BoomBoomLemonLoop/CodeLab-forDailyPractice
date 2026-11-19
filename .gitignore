@@ -1,4 +1,8 @@
 .venv/
+# Raw textbooks, papers, private notes and supplied examples stay local.
+/materials/
+# Local user-supplied integration input; retained on disk, not a second project tree.
+/CodeLab-for-DailyPractice-study-scaffold/
 __pycache__/
 *.py[cod]
 .pytest_cache/

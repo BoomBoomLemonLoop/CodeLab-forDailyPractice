@@ -1,5 +1,8 @@
 # 仿真计划（Planned）
 
+Turns 驱动的热化学、零维模型与已有点火案例统一由 [Cantera 总览](cantera/README.md) 导航。
+计算入口保持原路径；热化学与新增反应器仅有计划，未宣称可运行。
+
 只有 [Cantera 0D](cantera/zero-dimensional-ignition/README.md) 已实现；
 下面尚无网格、边界配置或已验证可运行的求解案例。
 

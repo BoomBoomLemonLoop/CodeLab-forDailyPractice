@@ -1,5 +1,9 @@
 # 每日 1–2 小时的渐进路线
 
+这是长期能力清单，不是当前必修顺序。当前章节与优先级以
+[study-map.md](study-map.md) 为准，节奏见 [weekly-rhythm.md](weekly-rhythm.md)。
+已在读 Anderson 第 7 章，无需为了目录顺序重新从基础案例开始。
+
 每次约 20 分钟阅读/手推、40–60 分钟实现、20 分钟测试、10 分钟研究日志。
 按交付验收推进，不以日历强制跳过理解步骤。
 
@@ -16,6 +20,7 @@
 | 论文线 | 补齐 emu 原文、DOI、目标图表；列未知条件；确认指标 | 锁定单一复现目标后才编码 |
 | CFD 线 | 核实 OpenFOAM v2606；cavity 后 pitzDaily；记录运行预算 | checkMesh、守恒、剖面和网格对比 |
 
-近期优先顺序：扩散推导与验证 → 论文资料确认 → 0D 敏感性 → cavity。
+近期优先：Turns + Cantera → Anderson 第 7 章；FVM/CFDPython 按问题补充。
+论文资料确认和 cavity 可在研究需要时插入，不抢占当前毕业论文计算学习主线。
 Fluent、TVC、压气机与 CFD–surrogate 耦合按 research/README.md 里程碑逐步开展。
 不在第一轮实现全部路线，不默认 HPC/GPU 可用。

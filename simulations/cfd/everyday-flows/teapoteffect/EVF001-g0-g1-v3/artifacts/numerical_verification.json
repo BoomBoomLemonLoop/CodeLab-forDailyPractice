@@ -1,0 +1,42 @@
+{
+  "analytic_solid_volume_m3": 2.0303867354146187e-06,
+  "refinement": [
+    {
+      "arc_intervals": 16,
+      "lip_intervals": 8,
+      "solid_volume_m3": 2.027434364828166e-06,
+      "solid_relative_error": 0.0014540927277333277,
+      "partial_arc_error_m": 1.4334878941879743e-05,
+      "partial_area_error_m2": 4.64850946356396e-08
+    },
+    {
+      "arc_intervals": 32,
+      "lip_intervals": 16,
+      "solid_volume_m3": 2.029646842262214e-06,
+      "solid_relative_error": 0.0003644099616585886,
+      "partial_arc_error_m": 5.304638771834284e-06,
+      "partial_area_error_m2": 1.1588482866455796e-08
+    },
+    {
+      "arc_intervals": 64,
+      "lip_intervals": 32,
+      "solid_volume_m3": 2.0302016492519504e-06,
+      "solid_relative_error": 9.115808305877227e-05,
+      "partial_arc_error_m": 1.8958667331184578e-06,
+      "partial_area_error_m2": 2.8814593694514014e-09
+    },
+    {
+      "arc_intervals": 128,
+      "lip_intervals": 64,
+      "solid_volume_m3": 2.0303404568139128e-06,
+      "solid_relative_error": 2.279299795392122e-05,
+      "partial_arc_error_m": 4.631067492795807e-07,
+      "partial_area_error_m2": 7.164296097849867e-10
+    }
+  ],
+  "legacy_integrity": {
+    "files_checked": 68,
+    "changed": [],
+    "missing": []
+  }
+}

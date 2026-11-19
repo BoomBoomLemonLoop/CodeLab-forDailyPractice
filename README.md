@@ -5,6 +5,12 @@
 
 ## 导航与状态
 
+当前优先：**Turns → Cantera（毕业论文）**；CFD 主线为 **Anderson 第 7 章准一维喷管与 MacCormack**。
+先读 [教材—案例映射](docs/study-map.md)，再按 [每周节奏](docs/weekly-rhythm.md)
+与 [每日任务记录](docs/study-tasks.md) 选择一次 60–120 分钟的小任务。
+核心代码由学习者编写；Codex 默认提供推导提示、代码检查和验证设计。
+完整参考实现的适用条件统一见 AGENTS.md，不自动完成整套教材练习。
+
 | 模块 | 内容 | 当前状态 |
 | --- | --- | --- |
 | [FVM 扩散](fundamentals/finite-volume-method/01-diffusion/README.md) | 一维扩散、解析解、守恒与网格收敛 | Tested：解析解数值验证通过 |
@@ -53,8 +59,15 @@ python -m pytest -m integration
 
 ## 下一步
 
+本地教材、论文和私人笔记放在被 Git 忽略的 `materials/`。
+整理资料时维护 [资料索引](references/materials-index.md) 与
+[知识关联](references/learning-map.md)，实际开展学习后记录
+[学习进度](docs/learning-progress.md)。导师协作规则见 [AGENTS.md](AGENTS.md)；
+框架搭建和代理编写的示例不自动计为你已掌握的技能。
+
 先读 [开发指南](docs/development-guide.md) 与 [可复现规范](docs/reproducibility.md)，
-按 [学习路线](docs/learning-roadmap.md) 从扩散推导、误差收敛走向对流扩散，再进入压力速度耦合。
+以 [学习映射](docs/study-map.md) 的当前读书进度为准；[长期能力路线](docs/learning-roadmap.md)
+用于按需补足扩散、对流扩散和压力速度耦合，不要求重新从第一项开始。
 Python（NumPy/SciPy/Matplotlib/pandas）、C++ 和其余 FVM 子目录按真实任务逐步创建。
 论文标题、DOI、作者、原文和目标图表补齐之前，不开展 `emu-2024-surrogate` 的实际复现。
 

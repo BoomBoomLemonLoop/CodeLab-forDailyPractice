@@ -1,0 +1,106 @@
+{
+  "status": "TESTED_GEOMETRIC_HANDOFF_ONLY; VELOCITY_AND_VOF_NOT_IMPLEMENTED",
+  "mesh_frame": "spout local (s,y,w); geometry static",
+  "time_dependence": "none; G3 solver time independent of G0 event time",
+  "inlet_s_over_L": 0.8,
+  "inlet_s_m": 0.03831039980913284,
+  "velocity_model_found": false,
+  "U_in_m_s": null,
+  "Q_in_m3_s": null,
+  "sources_sha256": {
+    "geometry.py": "d116de8f6f8ecbd1b73f56a6b13ff23f4b3974070b27ff923fe1b2ee66990727",
+    "parameters.json": "d2bf84a771634f32d86bd0bb56b3a16cf016537a3033e19c3f5b09d17cba17da",
+    "case1_history.csv": "1462a4fd9ab99329ff67ab9e2e28d6c7b6290f32afd7e8b540900214a75be127",
+    "case2_history.csv": "aff4d3f5cfca7b586a006aa5403430d51dfa37c6f2eb4a3dd2bb5d9b8857d806"
+  },
+  "cases": {
+    "case1": {
+      "source_event_time_s": 3.0,
+      "fixed_beta_deg": 25.0,
+      "source_H_world_m": 0.020294558545186688,
+      "constant_gravity_spout_m_s2": [
+        -4.145885147676262,
+        0.0,
+        -8.890879390829536
+      ],
+      "candidate_inlet_sections": [
+        {
+          "s_over_L": 0.75,
+          "s_m": 0.035915999821062035,
+          "local_water_height_w_m": 0.005644662006995761,
+          "wetted_perimeter_m": 0.017734242645882768,
+          "transverse_width_m": 0.012291396950343172,
+          "liquid_area_m2": 4.829736474529629e-05
+        },
+        {
+          "s_over_L": 0.8,
+          "s_m": 0.03831039980913284,
+          "local_water_height_w_m": 0.0045281349558721085,
+          "wetted_perimeter_m": 0.01515573387178779,
+          "transverse_width_m": 0.01100214256329569,
+          "liquid_area_m2": 3.529343125359855e-05
+        },
+        {
+          "s_over_L": 0.85,
+          "s_m": 0.04070479979720364,
+          "local_water_height_w_m": 0.0034116079047484533,
+          "wetted_perimeter_m": 0.012577225097692839,
+          "transverse_width_m": 0.009712888176248213,
+          "liquid_area_m2": 2.372898516081911e-05
+        }
+      ],
+      "baseline_section": {
+        "s_over_L": 0.8,
+        "s_m": 0.03831039980913284,
+        "local_water_height_w_m": 0.0045281349558721085,
+        "wetted_perimeter_m": 0.01515573387178779,
+        "transverse_width_m": 0.01100214256329569,
+        "liquid_area_m2": 3.529343125359855e-05
+      }
+    },
+    "case2": {
+      "source_event_time_s": 1.5,
+      "fixed_beta_deg": 55.0,
+      "source_H_world_m": 0.039483407039664076,
+      "constant_gravity_spout_m_s2": [
+        -8.03588155447501,
+        0.0,
+        -5.626784840603762
+      ],
+      "candidate_inlet_sections": [
+        {
+          "s_over_L": 0.75,
+          "s_m": 0.035915999821062035,
+          "local_water_height_w_m": 0.01754385592890596,
+          "wetted_perimeter_m": 0.04521425390170055,
+          "transverse_width_m": 0.026031402578251987,
+          "liquid_area_m2": 0.0002763025763559184
+        },
+        {
+          "s_over_L": 0.8,
+          "s_m": 0.03831039980913284,
+          "local_water_height_w_m": 0.014124298358599296,
+          "wetted_perimeter_m": 0.03731712396679652,
+          "transverse_width_m": 0.022082837610800033,
+          "liquid_area_m2": 0.00019403786921690506
+        },
+        {
+          "s_over_L": 0.85,
+          "s_m": 0.04070479979720364,
+          "local_water_height_w_m": 0.010704740788292633,
+          "wetted_perimeter_m": 0.029419994031892625,
+          "transverse_width_m": 0.018134272643348093,
+          "liquid_area_m2": 0.0001252755073041897
+        }
+      ],
+      "baseline_section": {
+        "s_over_L": 0.8,
+        "s_m": 0.03831039980913284,
+        "local_water_height_w_m": 0.014124298358599296,
+        "wetted_perimeter_m": 0.03731712396679652,
+        "transverse_width_m": 0.022082837610800033,
+        "liquid_area_m2": 0.00019403786921690506
+      }
+    }
+  }
+}

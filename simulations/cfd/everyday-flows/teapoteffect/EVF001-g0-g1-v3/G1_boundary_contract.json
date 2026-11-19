@@ -1,0 +1,41 @@
+{
+  "status": "KINEMATICS_AND_INPUT_AUDIT_ONLY; NO_FLUID_VELOCITY_COMPUTED",
+  "stage_naming": "Latest user convention: G0/G1 geometry and kinematics; G2 upstream flow; G3 VOF",
+  "active_plan": "../EVF001_G2G3_固定入口与固定壶嘴实施方案.md",
+  "G2_G3_policy": {
+    "geometry": "fixed spout local frame",
+    "case1_fixed_beta_deg": 25,
+    "case2_fixed_beta_deg": 55,
+    "inlet_conditions": "constant in CFD time",
+    "gravity": "constant per case; R_transpose times world gravity",
+    "mesh_motion": false,
+    "replay_pouring_history": false,
+    "initial_horizontal_interface": "local inner liquid seed only; evolves freely after initialization",
+    "velocity_evidence": "no implemented or measured velocity model found; prior head formula and flow value are assumptions"
+  },
+  "kinematic_clock": {"symbol": "t", "unit": "s", "meaning": "pose and geometric intersection event time"},
+  "particle_clock": {"symbol": "tau", "unit": "s", "meaning": "fluid-particle travel time, not determined"},
+  "not_required_for_this_round": ["physical kettle pivot", "reservoir volume", "measured H(t)", "pressure field"],
+  "future_fluid_inputs": {
+    "Q_m3_s": null,
+    "effective_head_m": null,
+    "discharge_coefficient": null,
+    "upstream_pressure_Pa": null,
+    "liquid_inlet_region_m": null,
+    "pressure_and_open_boundary_conditions": null,
+    "frame_inertial_terms_policy": "static frame: no rotational inertial terms"
+  },
+  "not_computed": ["alpha_in", "U_in", "Q", "film_thickness", "Weber_number"],
+  "forbidden_inferences": [
+    "length/3 seconds is an outlet fluid velocity",
+    "uniform 0.7 mm film is known physics",
+    "parabolic transverse amplitude is a solved flow field",
+    "plane clipping predicts a dynamic three-phase contact line"
+  ],
+  "next_stage_gate": [
+    "user reviews triangular geometry, 45 mm height interpretation and outlet event definition",
+    "user reviews provisional transverse depth, Case 2 initial depth and interpolation",
+    "then separately define a flow/head/momentum closure and integral-flux tests",
+    "only later create an independent OpenFOAM v2606 case after geometry review"
+  ]
+}
