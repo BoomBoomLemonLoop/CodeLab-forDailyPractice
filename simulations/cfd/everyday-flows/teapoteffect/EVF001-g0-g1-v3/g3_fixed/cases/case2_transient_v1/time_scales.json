@@ -1,0 +1,9 @@
+{
+  "mean_inlet_m_s": 0.05154739755766045,
+  "inlet_to_lip_advection_s": 0.18580181359436806,
+  "lip_capillary_s": 0.001730317889868795,
+  "two_radii_advection_s": 0.0232795457551022,
+  "first_window_s": 0.025,
+  "full_development_assessment_s": 0.5574054407831042,
+  "rationale": "First window resolves >=5 lip capillary times and >=2 radius advection times; not full-domain residence or quasi-steady."
+}

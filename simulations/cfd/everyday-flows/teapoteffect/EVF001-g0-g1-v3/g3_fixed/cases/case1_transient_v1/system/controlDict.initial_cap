@@ -1,0 +1,16 @@
+FoamFile
+{
+ version 2.0; format ascii; class dictionary; location "system"; object controlDict;
+}
+application interFoam; startFrom startTime; startTime 0; stopAt endTime; endTime 0.01;
+deltaT 1e-6; writeControl adjustableRunTime; writeInterval 0.001; purgeWrite 0;
+writeFormat ascii; writePrecision 12; runTimeModifiable yes; adjustTimeStep yes;
+maxCo 0.1; maxAlphaCo 0.05; maxDeltaT 5e-6;
+
+functions {
+bounds { type fieldMinMax; libs (fieldFunctionObjects); fields (alpha.water U); mode magnitude; location true; writeControl timeStep; writeInterval 1; }
+waterVolume { type volFieldValue; libs (fieldFunctionObjects); regionType all; operation volIntegrate; writeFields false; fields (alpha.water); writeControl timeStep; writeInterval 1; log true; }
+waterInletFlux { type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name waterInlet; operation sum; writeFields false; fields (phi rhoPhi); writeControl timeStep; writeInterval 1; log true; }
+inletFlux { type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name inlet; operation sum; writeFields false; fields (phi rhoPhi); writeControl timeStep; writeInterval 1; log true; }
+atmosphereFlux { type surfaceFieldValue; libs (fieldFunctionObjects); regionType patch; name atmosphere; operation sum; writeFields false; fields (phi rhoPhi); writeControl timeStep; writeInterval 1; log true; }
+}

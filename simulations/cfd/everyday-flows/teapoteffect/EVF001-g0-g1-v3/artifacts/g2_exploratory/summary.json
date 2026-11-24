@@ -1,0 +1,37 @@
+{
+  "status": "exploratory fixed-Q kinematic inlet; not measured or momentum-solved",
+  "assumed_Q_m3_s": 1e-05,
+  "profile": "local plane-film Poiseuille shape 2xi-xi^2; approximate, not fully developed in triangular spout",
+  "cases": {
+    "case1": {
+      "beta_deg": 25.0,
+      "g_local_m_s2": [
+        -4.145885147676262,
+        0.0,
+        -8.890879390829536
+      ],
+      "s_in_m": 0.03831039980913284,
+      "w_free_m": 0.0045281349558721085,
+      "area_m2": 3.52934471986568e-05,
+      "U_mean_m_s": 0.28333871564635893,
+      "U_max_m_s": 0.4250080734695384,
+      "integrated_Q_m3_s": 1e-05,
+      "relative_flux_error": 0.0
+    },
+    "case2": {
+      "beta_deg": 55.0,
+      "g_local_m_s2": [
+        -8.03588155447501,
+        0.0,
+        -5.626784840603762
+      ],
+      "s_in_m": 0.03831039980913284,
+      "w_free_m": 0.014124298358599296,
+      "area_m2": 0.00019403748751175247,
+      "U_mean_m_s": 0.0515364331307079,
+      "U_max_m_s": 0.07730464969606185,
+      "integrated_Q_m3_s": 1e-05,
+      "relative_flux_error": 0.0
+    }
+  }
+}

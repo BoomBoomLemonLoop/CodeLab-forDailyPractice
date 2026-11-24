@@ -1,0 +1,51 @@
+{
+  "source": "D:\\CodeLab-forDailyPractice\\simulations\\cfd\\everyday-flows\\teapoteffect\\EVF001-g0-g1-v3\\g3_fixed\\cases\\case1_smoke_r1",
+  "cells_before": 229160,
+  "cells_after": 229150,
+  "merges": [
+    [
+      219210,
+      124078
+    ],
+    [
+      219214,
+      124083
+    ],
+    [
+      187305,
+      187309
+    ],
+    [
+      187327,
+      127282
+    ],
+    [
+      187328,
+      127938
+    ],
+    [
+      187351,
+      187355
+    ],
+    [
+      220236,
+      124074
+    ],
+    [
+      220237,
+      124074
+    ],
+    [
+      220262,
+      124086
+    ],
+    [
+      220263,
+      124086
+    ]
+  ],
+  "removed_internal_faces": 12,
+  "boundary_faces_preserved": 44240,
+  "relative_volume_change": 0.0,
+  "boundary_point_displacement_m": 0.0
+}

@@ -1,0 +1,16 @@
+{
+  "solver_finished": true,
+  "fatal": false,
+  "latest_solver_time_s": 0.025,
+  "steps": 3714,
+  "max_Co": 0.122658154095,
+  "max_alphaCo": 0.0997767549212,
+  "min_dt_s": 1.20048019208e-06,
+  "max_dt_s": 1.00527208875e-05,
+  "all_substep_logged_alpha_min": -4.44401484058e-21,
+  "all_substep_logged_alpha_max": 1.00001855113,
+  "final_step_alpha_min": -4.44401484058e-21,
+  "final_step_alpha_max": 1.00000072228,
+  "over_1e6_final_step_count": 0,
+  "note": "Final fieldMinMax extrema are distinct from predictor/correction substeps. Counts here refer to timesteps, not cells."
+}

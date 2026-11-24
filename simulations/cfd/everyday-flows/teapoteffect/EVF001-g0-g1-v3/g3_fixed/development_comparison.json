@@ -1,0 +1,26 @@
+{
+  "case1": {
+    "last_analyzed_s": 0.04,
+    "advection_time_s": 0.033785036764000465,
+    "last_t_over_tau": 1.183956089182708,
+    "bulk_beyond_lip_event_bracket_s": [
+      0.014,
+      0.016
+    ],
+    "lower_lip_wetting_bracket_s": [
+      0.02,
+      0.022
+    ],
+    "last_inner_storage_rate_over_Q": 0.15189998244611308,
+    "detachment_position_status": "UNRESOLVED; reported wet front is a proxy, not a validated separation point"
+  },
+  "case2": {
+    "last_analyzed_s": 0.025,
+    "advection_time_s": 0.18580181359436806,
+    "last_t_over_tau": 0.13455196973791966,
+    "bulk_beyond_lip_event_bracket_s": null,
+    "lower_lip_wetting_bracket_s": null,
+    "last_inner_storage_rate_over_Q": 0.9943135566788897,
+    "detachment_position_status": "UNRESOLVED; reported wet front is a proxy, not a validated separation point"
+  }
+}

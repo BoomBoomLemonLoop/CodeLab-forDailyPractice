@@ -5,8 +5,10 @@
 不将倾倒时间序列传给 G3。G3 不使用移动网格或时变倾角。
 
 本目录是唯一当前 G0/G1 工程。依据 2026-11-19 用户后续明确条件修订。
-**Implemented / numerically Tested；未进行真实水壶实验 Validated，也没有进行 CFD。**
-当前 G0/G1 只处理实体、姿态、水平面截交与几何度量。G2 上游速度模型、G3 VOF 均未开展。
+**Implemented / numerically Tested；尚未进行实验 Validated。**
+本页主体保留 G0/G1 使用说明。2026-11-24：G2 截面动量求解与 G3 固定姿态 VOF 已实际运行，
+Case 1/2 分别完成40/25 ms；最新证据见 [非稳态报告](g3_fixed/G3_TRANSIENT_RESULTS.md)。
+学习从 [阅读顺序](LEARNING_ORDER.md) 开始；选择性存档见 [GitHub存档说明](ARCHIVE_GUIDE.md)。
 原任务书把 VOF 编为 G2；此处遵循用户最新 G0/G1 → G2/G3 的分期，不混称已完成速度边界。
 
 先看 [结果与局限](REPORT.md)、[几何四视图](artifacts/geometry_views.png)、
@@ -48,7 +50,7 @@ python run_g0.py --no-animation --out artifacts_preview
 | `G1_boundary_contract.json` | 运动学时间与粒子时间分离；未来流场输入保持 null |
 | `legacy_manifest.json` | 本轮修改前既有文件的相对路径及哈希，不包含新工程 |
 
-不执行 Git add/commit/push/merge。旧参考项目和任务书保持原样。
+研究运行脚本不会自动执行 Git add/commit/push/merge；版本控制操作由用户单独确认。旧参考项目和任务书保持原样。
 项目新文件可由用户自主选择上传；`.mplcache/`、`__pycache__/` 为本地缓存，不应上传。
 
 ## 2. 几何定义：两个三角面，不是定截面挤出槽

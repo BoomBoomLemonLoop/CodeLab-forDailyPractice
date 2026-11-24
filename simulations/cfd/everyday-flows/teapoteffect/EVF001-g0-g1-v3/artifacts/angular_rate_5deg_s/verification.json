@@ -1,0 +1,36 @@
+{
+  "status": "TESTED_KINEMATIC_TIME_REPARAMETRIZATION_NOT_FLUID_PREDICTION",
+  "original_parameters_sha256": "d2bf84a771634f32d86bd0bb56b3a16cf016537a3033e19c3f5b09d17cba17da",
+  "liquid_flow_rescaled": false,
+  "free_surface_assumption": "Same event endpoints; H interpolated against normalized tilt progress, not mass conservation",
+  "cases": {
+    "case1": {
+      "original_rate_deg_s": 10.0,
+      "new_rate_deg_s": 5.0,
+      "original_event_time_s": 3.0,
+      "new_event_time_s": 6.0,
+      "fixed_exit_beta_deg": 25.0,
+      "endpoint_H_world_m": 0.020294558545186688,
+      "inlet_area_m2": 3.529343125359857e-05,
+      "inlet_wetted_perimeter_m": 0.015155733871787796,
+      "max_same_progress_geometry_difference": 0.0,
+      "max_front_speed_halving_error_m_s": 0.0,
+      "fixed_G3_inlet_changed": false,
+      "reason": "Angular rate absent from fixed G2/G3 equations; event geometry and assumed Q unchanged."
+    },
+    "case2": {
+      "original_rate_deg_s": 10.0,
+      "new_rate_deg_s": 5.0,
+      "original_event_time_s": 1.5,
+      "new_event_time_s": 3.0,
+      "fixed_exit_beta_deg": 55.0,
+      "endpoint_H_world_m": 0.039483407039664076,
+      "inlet_area_m2": 0.0001940378692169058,
+      "inlet_wetted_perimeter_m": 0.03731712396679661,
+      "max_same_progress_geometry_difference": 0.0,
+      "max_front_speed_halving_error_m_s": 0.0,
+      "fixed_G3_inlet_changed": false,
+      "reason": "Angular rate absent from fixed G2/G3 equations; event geometry and assumed Q unchanged."
+    }
+  }
+}

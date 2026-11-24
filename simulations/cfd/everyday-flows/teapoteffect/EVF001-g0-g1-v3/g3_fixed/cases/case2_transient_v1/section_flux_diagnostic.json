@@ -1,0 +1,180 @@
+{
+  "definition": "pvpython: diagnostic interpolated water flux at two actual fluid cuts.\n\nThis is NOT the solver's conservative face flux; global conservation uses\nrhoPhi. Integrates the product of linear nodal alpha and U_s exactly per triangle.\n",
+  "series": [
+    {
+      "time_s": 0.001,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 1.4538397152819016e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 7.992076445084706e-11
+    },
+    {
+      "time_s": 0.002,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 4.629149952251055e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 9.213024232401779e-10
+    },
+    {
+      "time_s": 0.003,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 1.199381571836966e-08,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 3.610801435627309e-09
+    },
+    {
+      "time_s": 0.004,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 1.2052235653925436e-08,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 4.743053505507078e-09
+    },
+    {
+      "time_s": 0.005,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 5.433780536634458e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 3.0845233034426656e-09
+    },
+    {
+      "time_s": 0.006,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 9.746520035491812e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 3.734327513882363e-09
+    },
+    {
+      "time_s": 0.007,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 9.319207627811465e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 4.312499246594825e-09
+    },
+    {
+      "time_s": 0.008,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 5.432017058382144e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 3.1606688377650016e-09
+    },
+    {
+      "time_s": 0.009,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 5.821398474381567e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 2.5682382887026733e-09
+    },
+    {
+      "time_s": 0.01,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 4.9453472428240275e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 1.7976656829787885e-09
+    },
+    {
+      "time_s": 0.011,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 1.7854865363986505e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 4.2536135724802193e-10
+    },
+    {
+      "time_s": 0.012,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": -2.0698003311281354e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": -8.814079466290536e-10
+    },
+    {
+      "time_s": 0.013,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": -2.1864512422808957e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": -1.0014598039731482e-09
+    },
+    {
+      "time_s": 0.014,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 1.028492846444351e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": -2.408390431529739e-10
+    },
+    {
+      "time_s": 0.015,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 4.534991937532595e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 7.188484252296234e-10
+    },
+    {
+      "time_s": 0.016,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 5.439179773247815e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 1.2393732706783567e-09
+    },
+    {
+      "time_s": 0.017,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 3.6885092757898974e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 1.2516918612703876e-09
+    },
+    {
+      "time_s": 0.018,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 2.1469799271756074e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 7.484344810571031e-10
+    },
+    {
+      "time_s": 0.019,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 1.578342123664811e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 6.131789520580355e-10
+    },
+    {
+      "time_s": 0.02,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 1.896362844533428e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 1.0062505273467082e-09
+    },
+    {
+      "time_s": 0.021,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 2.790127684448862e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 1.468416721550625e-09
+    },
+    {
+      "time_s": 0.022,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 4.598279090828328e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 2.0187529425896855e-09
+    },
+    {
+      "time_s": 0.023,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 6.228982218914325e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 2.5545330295528856e-09
+    },
+    {
+      "time_s": 0.024,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 7.227765497219707e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 3.0372164783187827e-09
+    },
+    {
+      "time_s": 0.025,
+      "centreline_crest_s_m": 0.048379490987989444,
+      "centreline_crest_Q_m3_s": 8.13138090194343e-09,
+      "beyond_lip_s_m": 0.04858799976141605,
+      "beyond_lip_Q_m3_s": 3.371278145536394e-09
+    }
+  ]
+}

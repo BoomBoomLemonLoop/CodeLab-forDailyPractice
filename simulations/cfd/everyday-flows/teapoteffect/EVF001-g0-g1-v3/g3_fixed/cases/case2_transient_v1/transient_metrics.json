@@ -1,0 +1,2478 @@
+{
+  "definition": "Actual wall coverage proxies, saved-field bounds and all-open-patch water balance.\n\nWetted face: wall alpha >= threshold. Attachment length: axial extent of wet\nouter faces connected by shared edges to the exit. This is a contact-front\nproxy, not proof of hydrodynamic separation or a physical contact line.\n",
+  "series": [
+    {
+      "time_s": 0.0,
+      "water_volume_m3": 7.504824102111305e-07,
+      "alpha_min": 0.0,
+      "alpha_max": 1.0,
+      "geometric_spout_interior_water_m3": 7.504824102111303e-07,
+      "alpha_outside_1e8_count": 0,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.03843319463214559,
+        -0.0008499904957864975,
+        0.00012456763628086961
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.03880554933495575,
+        -0.029499969166664197,
+        -0.019499973166665678
+      ],
+      "wall_alpha_min": 0.0,
+      "wall_alpha_max": 0.0,
+      "max_speed_all_m_s": 0.103740996977,
+      "max_speed_air_alpha_lt_001_m_s": 0.0,
+      "max_speed_all_xyz_m": [
+        0.038805416525611834,
+        0.0005053416389160401,
+        0.012473252681820457
+      ],
+      "beyond_lip_water_m3": 0.0,
+      "maximum_liquid_s_m": 0.047835748608591785,
+      "max_liquid_speed_m_s": 0.103740996977,
+      "outer_alpha_area_m2": 0.0,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 0.0,
+      "connected_lip_arc_alpha0.1_m": 0.0,
+      "lip_front_candidate_alpha0.1_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.1_m_s": null,
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 0.0,
+      "connected_lip_arc_alpha0.5_m": 0.0,
+      "lip_front_candidate_alpha0.5_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.5_m_s": null,
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 0.0,
+      "connected_lip_arc_alpha0.9_m": 0.0,
+      "lip_front_candidate_alpha0.9_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.9_m_s": null,
+      "max_wet_lip_angle_deg": 0.0,
+      "max_wet_lip_xyz_m": null,
+      "maximum_liquid_s_xyz_m": [
+        0.047835748608591785,
+        -0.0013943047280376895,
+        0.0003250937271939203
+      ],
+      "waterInlet_integrated_outward_m3": 0.0,
+      "inlet_integrated_outward_m3": 0.0,
+      "atmosphere_integrated_outward_m3": 0.0,
+      "water_balance_residual_m3": 0.0
+    },
+    {
+      "time_s": 0.001,
+      "water_volume_m3": 7.604823043783958e-07,
+      "alpha_min": -1.51829002962e-28,
+      "alpha_max": 1.00000002691,
+      "geometric_spout_interior_water_m3": 7.603713129520218e-07,
+      "alpha_outside_1e8_count": 47,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.038434123783872044,
+        0.008441537321256565,
+        0.010077237763721944
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.04758352613214172,
+        -0.004962508277932411,
+        0.004822706024567987
+      ],
+      "wall_alpha_min": 2.79339132955e-190,
+      "wall_alpha_max": 1.00000000968,
+      "max_speed_all_m_s": 1.974653510986437,
+      "max_speed_air_alpha_lt_001_m_s": 1.974653510986437,
+      "max_speed_all_xyz_m": [
+        0.047653812872801196,
+        0.0034652385099812636,
+        0.0015348991584056418
+      ],
+      "beyond_lip_water_m3": 8.224940559921944e-15,
+      "maximum_liquid_s_m": 0.04801821070318935,
+      "max_liquid_speed_m_s": 0.2695002289930698,
+      "outer_alpha_area_m2": 1.3071704520768422e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0426229328869,
+        -0.0830272784689,
+        0.0139162621221
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.5_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0432765039254,
+        0.0137945569897,
+        -0.0224765711962
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        -0.0507930982396,
+        -0.0415501341895,
+        0.00203763401968
+      ],
+      "max_wet_lip_angle_deg": 13.535000284809804,
+      "max_wet_lip_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.04801821070318935,
+        0.0010693475593920542,
+        0.0001576253529177384
+      ],
+      "waterInlet_integrated_outward_m3": -9.999999999999386e-09,
+      "inlet_integrated_outward_m3": -8.853435674238334e-14,
+      "atmosphere_integrated_outward_m3": 1.0926682316219931e-13,
+      "water_balance_residual_m3": -8.510026762667304e-14
+    },
+    {
+      "time_s": 0.002,
+      "water_volume_m3": 7.70482054295556e-07,
+      "alpha_min": -1.56249754395e-33,
+      "alpha_max": 1.00000003753,
+      "geometric_spout_interior_water_m3": 7.703168712652111e-07,
+      "alpha_outside_1e8_count": 135,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.0475455764726758,
+        -0.0008284204609633209,
+        0.00013671237672316453
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.0477888997749049,
+        0.006797888989378666,
+        0.006823875547579812
+      ],
+      "wall_alpha_min": -6.8772062142e-170,
+      "wall_alpha_max": 1.00000001877,
+      "max_speed_all_m_s": 1.0971062261839901,
+      "max_speed_air_alpha_lt_001_m_s": 1.0971062261839901,
+      "max_speed_all_xyz_m": [
+        0.04752821250119482,
+        -0.0038076721643600436,
+        0.0018128583095864885
+      ],
+      "beyond_lip_water_m3": 1.3569064200266347e-13,
+      "maximum_liquid_s_m": 0.04802655956241476,
+      "max_liquid_speed_m_s": 0.3176292971868877,
+      "outer_alpha_area_m2": 2.5803678456076874e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0564592048901,
+        -0.142503092479,
+        0.020684505835
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.5_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0353224588192,
+        -0.0228652341543,
+        -0.000458278710528
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 11.946915525309706,
+      "connected_lip_arc_alpha0.9_m": 0.00012510780682456937,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.04801161259873319,
+        -6.282583638489707e-05,
+        -1.539282321062333e-05
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.108687039501,
+        0.0388131237305,
+        -0.0098481352986
+      ],
+      "max_wet_lip_angle_deg": 13.535000284809804,
+      "max_wet_lip_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.04802655956241476,
+        0.0006922838839963559,
+        6.65566193260845e-05
+      ],
+      "waterInlet_integrated_outward_m3": -1.9999999999998832e-08,
+      "inlet_integrated_outward_m3": -1.0795572884657191e-13,
+      "atmosphere_integrated_outward_m3": 2.7515851572202965e-13,
+      "water_balance_residual_m3": -1.8871278638148733e-13
+    },
+    {
+      "time_s": 0.003,
+      "water_volume_m3": 7.804812436392374e-07,
+      "alpha_min": -1.43760655013e-21,
+      "alpha_max": 1.00000011382,
+      "geometric_spout_interior_water_m3": 7.802956013311701e-07,
+      "alpha_outside_1e8_count": 456,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04660409217418824,
+        -0.0008508202057399706,
+        0.00012285760981149395
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.038434460234255924,
+        0.010667976327082235,
+        0.014350340841887355
+      ],
+      "wall_alpha_min": -2.54963944987e-170,
+      "wall_alpha_max": 1.00000005691,
+      "max_speed_all_m_s": 1.5847447634168417,
+      "max_speed_air_alpha_lt_001_m_s": 1.5847447634168417,
+      "max_speed_all_xyz_m": [
+        0.04752822061495307,
+        0.0038080839520936386,
+        0.0018125307676059973
+      ],
+      "beyond_lip_water_m3": 3.0506188867379634e-13,
+      "maximum_liquid_s_m": 0.04803566331330839,
+      "max_liquid_speed_m_s": 0.20202239690499685,
+      "outer_alpha_area_m2": 4.0654408725062613e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0977104976072,
+        -0.0917006123549,
+        -0.0152481809683
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.5_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        -0.0498110183714,
+        0.0601583551131,
+        0.0157542263255
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        -0.0583464593906,
+        -0.0936317002452,
+        0.0325206115338
+      ],
+      "max_wet_lip_angle_deg": 13.535000284809804,
+      "max_wet_lip_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.04803566331330839,
+        0.0008046354201582096,
+        7.66724702770313e-05
+      ],
+      "waterInlet_integrated_outward_m3": -2.999999999999821e-08,
+      "inlet_integrated_outward_m3": 4.01544340740618e-13,
+      "atmosphere_integrated_outward_m3": 4.852555227009606e-13,
+      "water_balance_residual_m3": -2.7977202787497415e-13
+    },
+    {
+      "time_s": 0.004,
+      "water_volume_m3": 7.904804981354809e-07,
+      "alpha_min": -5.07575793338e-31,
+      "alpha_max": 1.00000016566,
+      "geometric_spout_interior_water_m3": 7.903089582005152e-07,
+      "alpha_outside_1e8_count": 502,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04660409217418824,
+        -0.0008508202057399706,
+        0.00012285760981149395
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.040785546723000124,
+        -0.0015107265094597227,
+        0.017479998410125167
+      ],
+      "wall_alpha_min": 6.54539388836e-164,
+      "wall_alpha_max": 1.00000008283,
+      "max_speed_all_m_s": 1.2020595062407657,
+      "max_speed_air_alpha_lt_001_m_s": 1.2020595062407657,
+      "max_speed_all_xyz_m": [
+        0.04753156159387906,
+        -0.0039255943422804905,
+        0.0019561660464048236
+      ],
+      "beyond_lip_water_m3": 1.2146824442132202e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.27319508870371256,
+      "outer_alpha_area_m2": 4.650523494799372e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.1_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0848300964194,
+        0.0290979244367,
+        0.0085257976147
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        -0.0362808158461,
+        -0.0626872243954,
+        0.0508468587786
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.4993590797085783,
+      "connected_lip_arc_alpha0.9_m": 1.5701251566352074e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.04790380151104505,
+        -0.0010660271530114787,
+        0.00011875278100885095
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        -0.00999392357416,
+        0.014411013555,
+        0.0635829775836
+      ],
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -3.9999999999997546e-08,
+      "inlet_integrated_outward_m3": 7.300003814672585e-13,
+      "atmosphere_integrated_outward_m3": 7.861367711276796e-13,
+      "water_balance_residual_m3": -3.959384945294519e-13
+    },
+    {
+      "time_s": 0.005,
+      "water_volume_m3": 8.004802374604784e-07,
+      "alpha_min": -5.09226664012e-33,
+      "alpha_max": 1.00000026816,
+      "geometric_spout_interior_water_m3": 8.003014131082418e-07,
+      "alpha_outside_1e8_count": 706,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04660409217418824,
+        -0.0008508202057399706,
+        0.00012285760981149395
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.044430300745493166,
+        -0.01632843951599206,
+        0.023187360111396736
+      ],
+      "wall_alpha_min": 5.08739796564e-160,
+      "wall_alpha_max": 1.00000013408,
+      "max_speed_all_m_s": 1.209291982378204,
+      "max_speed_air_alpha_lt_001_m_s": 1.209291982378204,
+      "max_speed_all_xyz_m": [
+        0.04758222942687312,
+        0.0031838504779236987,
+        0.0023259504614073006
+      ],
+      "beyond_lip_water_m3": 3.0788348887721982e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.2462025693762931,
+      "outer_alpha_area_m2": 5.322783101909292e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.1_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0386676424428,
+        -0.00353037560471,
+        -0.106005218602
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0210576486174,
+        -0.163909189537,
+        -0.0330996750496
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.4993590797085783,
+      "connected_lip_arc_alpha0.9_m": 1.5701251566352074e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.04790380151104505,
+        -0.0010660271530114787,
+        0.00011875278100885095
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0252363083017,
+        0.0607009720781,
+        0.00854348208944
+      ],
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -4.999999999999691e-08,
+      "inlet_integrated_outward_m3": 6.616791537847353e-13,
+      "atmosphere_integrated_outward_m3": 1.0296307789912965e-12,
+      "water_balance_residual_m3": -4.81440716157037e-13
+    },
+    {
+      "time_s": 0.006,
+      "water_volume_m3": 8.104801175918207e-07,
+      "alpha_min": -4.85799749876e-33,
+      "alpha_max": 1.00000034256,
+      "geometric_spout_interior_water_m3": 8.102613215590408e-07,
+      "alpha_outside_1e8_count": 805,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04660409217418824,
+        -0.0008508202057399706,
+        0.00012285760981149395
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.04778886386710812,
+        -0.013202436680286788,
+        0.015425924383191557
+      ],
+      "wall_alpha_min": 2.04098412072e-155,
+      "wall_alpha_max": 1.00000017128,
+      "max_speed_all_m_s": 1.140097930606022,
+      "max_speed_air_alpha_lt_001_m_s": 1.140097930606022,
+      "max_speed_all_xyz_m": [
+        0.04753153933060838,
+        0.004319045012895281,
+        0.002553607618894426
+      ],
+      "beyond_lip_water_m3": 4.923793134001832e-12,
+      "maximum_liquid_s_m": 0.04803566331330839,
+      "max_liquid_speed_m_s": 0.2644608792771879,
+      "outer_alpha_area_m2": 5.994618841206046e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0719055524593,
+        -0.0146658001654,
+        -0.104914540912
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.5_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0469387209222,
+        0.0349920945808,
+        -0.0674487950265
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 12.019457616060583,
+      "connected_lip_arc_alpha0.9_m": 0.00012586746582249938,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.04801242421124381,
+        -0.00018815864696413367,
+        -1.2074328372016447e-05
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0766987880356,
+        0.0378726457454,
+        -0.0219319486535
+      ],
+      "max_wet_lip_angle_deg": 13.535000284809804,
+      "max_wet_lip_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.04803566331330839,
+        0.0008046354201582096,
+        7.66724702770313e-05
+      ],
+      "waterInlet_integrated_outward_m3": -5.999999999999628e-08,
+      "inlet_integrated_outward_m3": 4.625409216025665e-13,
+      "atmosphere_integrated_outward_m3": 1.2726957615517162e-12,
+      "water_balance_residual_m3": -5.573826228434752e-13
+    },
+    {
+      "time_s": 0.007,
+      "water_volume_m3": 8.204799987679291e-07,
+      "alpha_min": -4.56197694014e-33,
+      "alpha_max": 1.00000032016,
+      "geometric_spout_interior_water_m3": 8.202662885976346e-07,
+      "alpha_outside_1e8_count": 955,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04635660135076387,
+        -0.0008508678712821617,
+        0.00012288311206612082
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.04778886386710812,
+        -0.013202436680286788,
+        0.015425924383191557
+      ],
+      "wall_alpha_min": 2.78990065588e-148,
+      "wall_alpha_max": 1.00000016008,
+      "max_speed_all_m_s": 0.9295590560979817,
+      "max_speed_air_alpha_lt_001_m_s": 0.9295590560979817,
+      "max_speed_all_xyz_m": [
+        0.04753092867384522,
+        -0.004108804582279556,
+        0.002656526009172933
+      ],
+      "beyond_lip_water_m3": 8.241331506225634e-12,
+      "maximum_liquid_s_m": 0.04803566331330839,
+      "max_liquid_speed_m_s": 0.29005377724555415,
+      "outer_alpha_area_m2": 6.587268271392992e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 51.777160756230934,
+      "connected_lip_arc_alpha0.1_m": 0.0005422091595183761,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04835453061980533,
+        -6.280174275896787e-05,
+        -0.00023219830295528684
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0208400771422,
+        0.0339294862963,
+        0.141709245505
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 22.62496625197097,
+      "connected_lip_arc_alpha0.5_m": 0.00023692809254969666,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.0481178719542481,
+        -0.00031379148907354404,
+        -3.86836020713613e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        -0.0543169334625,
+        0.030691136826,
+        -0.0950406849175
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        -0.0399318029876,
+        -0.0925255969238,
+        0.0151809905016
+      ],
+      "max_wet_lip_angle_deg": 22.62496625197097,
+      "max_wet_lip_xyz_m": [
+        0.0481178719542481,
+        -0.00031379148907354404,
+        -3.86836020713613e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.04803566331330839,
+        0.0008046354201582096,
+        7.66724702770313e-05
+      ],
+      "waterInlet_integrated_outward_m3": -6.999999999999565e-08,
+      "inlet_integrated_outward_m3": 2.8921831307352363e-13,
+      "atmosphere_integrated_outward_m3": 1.499498192623777e-12,
+      "water_balance_residual_m3": -6.227266913564479e-13
+    },
+    {
+      "time_s": 0.008,
+      "water_volume_m3": 8.304797811317855e-07,
+      "alpha_min": -6.85846454424e-33,
+      "alpha_max": 1.00000037651,
+      "geometric_spout_interior_water_m3": 8.303147623791187e-07,
+      "alpha_outside_1e8_count": 1026,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.045613855330188184,
+        -0.0008509128569638688,
+        0.00012290957564463963
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.04778886386710812,
+        -0.013202436680286788,
+        0.015425924383191557
+      ],
+      "wall_alpha_min": -1.81455476921e-46,
+      "wall_alpha_max": 1.00000018826,
+      "max_speed_all_m_s": 1.2272129473826443,
+      "max_speed_air_alpha_lt_001_m_s": 1.2272129473826443,
+      "max_speed_all_xyz_m": [
+        0.04753183745541176,
+        -0.0044217582980443,
+        0.0027089509599956653
+      ],
+      "beyond_lip_water_m3": 9.730185950547177e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.30220548108296713,
+      "outer_alpha_area_m2": 6.710790946124891e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0667413230066,
+        -0.000687035373668,
+        0.0012741865347
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 12.493116621040462,
+      "connected_lip_arc_alpha0.5_m": 0.00013082761132367083,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04801719328719262,
+        -0.0004376932912388652,
+        2.2152575015727786e-06
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        -0.0885815192391,
+        0.0432706675622,
+        0.0677135945953
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0110104787359,
+        -0.0788040977003,
+        0.0325002231171
+      ],
+      "max_wet_lip_angle_deg": 12.493116621040462,
+      "max_wet_lip_xyz_m": [
+        0.04801719328719262,
+        -0.0004376932912388652,
+        2.2152575015727786e-06
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -7.999999999999501e-08,
+      "inlet_integrated_outward_m3": 1.8659084084036682e-13,
+      "atmosphere_integrated_outward_m3": 1.747630841566192e-12,
+      "water_balance_residual_m3": -6.948576576020006e-13
+    },
+    {
+      "time_s": 0.009,
+      "water_volume_m3": 8.404794263848152e-07,
+      "alpha_min": -4.69057764038e-32,
+      "alpha_max": 1.00000043244,
+      "geometric_spout_interior_water_m3": 8.40340185864935e-07,
+      "alpha_outside_1e8_count": 1030,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.045613855330188184,
+        -0.0008509128569638688,
+        0.00012290957564463963
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.039795693932027455,
+        -0.008546651067260078,
+        0.01747176964429232
+      ],
+      "wall_alpha_min": -2.26380728052e-45,
+      "wall_alpha_max": 1.00000021622,
+      "max_speed_all_m_s": 1.0716559142195734,
+      "max_speed_air_alpha_lt_001_m_s": 1.0716559142195734,
+      "max_speed_all_xyz_m": [
+        0.047757909102608145,
+        -0.004009682272223107,
+        0.002262099803199662
+      ],
+      "beyond_lip_water_m3": 1.108205352640824e-11,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.3103785021204691,
+      "outer_alpha_area_m2": 6.944287640611993e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.1_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0637547594566,
+        0.0414633352076,
+        0.0198062303555
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        -0.0291737625205,
+        -0.0898528973407,
+        0.0404447940831
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.4993590797085783,
+      "connected_lip_arc_alpha0.9_m": 1.5701251566352074e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.04790380151104505,
+        -0.0010660271530114787,
+        0.00011875278100885095
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        -0.0247848487526,
+        0.0736660898109,
+        0.0456181238407
+      ],
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -8.999999999999436e-08,
+      "inlet_integrated_outward_m3": 2.5379739404115783e-13,
+      "atmosphere_integrated_outward_m3": 1.9738290003984968e-12,
+      "water_balance_residual_m3": -7.561999152234315e-13
+    },
+    {
+      "time_s": 0.01,
+      "water_volume_m3": 8.504788714638067e-07,
+      "alpha_min": -6.51201755119e-28,
+      "alpha_max": 1.00000041269,
+      "geometric_spout_interior_water_m3": 8.503408623896931e-07,
+      "alpha_outside_1e8_count": 1007,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.045613855330188184,
+        -0.0008509128569638688,
+        0.00012290957564463963
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.04869434370720504,
+        -0.0035337548586174676,
+        0.009473359735633983
+      ],
+      "wall_alpha_min": -1.59568277708e-98,
+      "wall_alpha_max": 1.00000020634,
+      "max_speed_all_m_s": 1.287171970678234,
+      "max_speed_air_alpha_lt_001_m_s": 1.287171970678234,
+      "max_speed_all_xyz_m": [
+        0.047757909102608145,
+        -0.004009682272223107,
+        0.002262099803199662
+      ],
+      "beyond_lip_water_m3": 1.1644365961176234e-11,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.3635073608439694,
+      "outer_alpha_area_m2": 7.189543547392824e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.1_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0424962970496,
+        0.0474406267128,
+        0.0248825764326
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        -0.0954303508547,
+        -0.15618100662,
+        0.00211703108356
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 0.0,
+      "connected_lip_arc_alpha0.9_m": 0.0,
+      "lip_front_candidate_alpha0.9_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.9_m_s": null,
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -9.999999999999355e-08,
+      "inlet_integrated_outward_m3": 4.737461866264932e-13,
+      "atmosphere_integrated_outward_m3": 2.241550007721084e-12,
+      "water_balance_residual_m3": -8.234511229525514e-13
+    },
+    {
+      "time_s": 0.011,
+      "water_volume_m3": 8.604780624509955e-07,
+      "alpha_min": -9.26640317319e-33,
+      "alpha_max": 1.0000003975,
+      "geometric_spout_interior_water_m3": 8.603240822950734e-07,
+      "alpha_outside_1e8_count": 968,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.045613855330188184,
+        -0.0008509128569638688,
+        0.00012290957564463963
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.0477886314386878,
+        -0.010056403145682498,
+        0.012444266328847604
+      ],
+      "wall_alpha_min": 2.15601515805e-137,
+      "wall_alpha_max": 1.00000019875,
+      "max_speed_all_m_s": 2.4572042636405858,
+      "max_speed_air_alpha_lt_001_m_s": 2.4572042636405858,
+      "max_speed_all_xyz_m": [
+        0.047757909102608145,
+        -0.004009682272223107,
+        0.002262099803199662
+      ],
+      "beyond_lip_water_m3": 1.0641247832307085e-11,
+      "maximum_liquid_s_m": 0.04778749528729379,
+      "max_liquid_speed_m_s": 0.4143843828004768,
+      "outer_alpha_area_m2": 7.401402408461176e-16,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.1_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0136681786595,
+        -0.185277117302,
+        -0.128835759073
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 0.0,
+      "connected_lip_arc_alpha0.5_m": 0.0,
+      "lip_front_candidate_alpha0.5_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.5_m_s": null,
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 0.0,
+      "connected_lip_arc_alpha0.9_m": 0.0,
+      "lip_front_candidate_alpha0.9_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.9_m_s": null,
+      "max_wet_lip_angle_deg": 0.0,
+      "max_wet_lip_xyz_m": null,
+      "maximum_liquid_s_xyz_m": [
+        0.04778749528729379,
+        -0.0010805504580985838,
+        0.00016615876518401442
+      ],
+      "waterInlet_integrated_outward_m3": -1.0999999999999287e-07,
+      "inlet_integrated_outward_m3": 1.0050411929400153e-12,
+      "atmosphere_integrated_outward_m3": 2.4597768480593758e-12,
+      "water_balance_residual_m3": -8.829420868488524e-13
+    },
+    {
+      "time_s": 0.012,
+      "water_volume_m3": 8.704768919464949e-07,
+      "alpha_min": -4.62191045321e-29,
+      "alpha_max": 1.00000039793,
+      "geometric_spout_interior_water_m3": 8.703021076009549e-07,
+      "alpha_outside_1e8_count": 902,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.045613855330188184,
+        -0.0008509128569638688,
+        0.00012290957564463963
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.03880544486861182,
+        -0.0005034031378617174,
+        0.018481321592769565
+      ],
+      "wall_alpha_min": 6.21980861908e-135,
+      "wall_alpha_max": 1.00000019897,
+      "max_speed_all_m_s": 0.740215455641486,
+      "max_speed_air_alpha_lt_001_m_s": 0.740215455641486,
+      "max_speed_all_xyz_m": [
+        0.04788904599810789,
+        0.0039037807293479322,
+        0.0023727954380382303
+      ],
+      "beyond_lip_water_m3": 8.319788456649016e-12,
+      "maximum_liquid_s_m": 0.04777901933806107,
+      "max_liquid_speed_m_s": 0.23386426605514646,
+      "outer_alpha_area_m2": 1.4155603407489128e-15,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 13.162809692813267,
+      "connected_lip_arc_alpha0.1_m": 0.00013784062077180892,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.048025850763977064,
+        -0.0024414865622340506,
+        0.000624529768271077
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0610537747332,
+        -0.145906318859,
+        0.112371044639
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 0.0,
+      "connected_lip_arc_alpha0.5_m": 0.0,
+      "lip_front_candidate_alpha0.5_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.5_m_s": null,
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 0.0,
+      "connected_lip_arc_alpha0.9_m": 0.0,
+      "lip_front_candidate_alpha0.9_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.9_m_s": null,
+      "max_wet_lip_angle_deg": 0.0,
+      "max_wet_lip_xyz_m": null,
+      "maximum_liquid_s_xyz_m": [
+        0.04777901933806107,
+        -0.0005583718912916351,
+        7.082562615332788e-05
+      ],
+      "waterInlet_integrated_outward_m3": -1.1999999999999223e-07,
+      "inlet_integrated_outward_m3": 1.925529393474839e-12,
+      "atmosphere_integrated_outward_m3": 2.648234800322216e-12,
+      "water_balance_residual_m3": -9.445004339836028e-13
+    },
+    {
+      "time_s": 0.013,
+      "water_volume_m3": 8.804751019761169e-07,
+      "alpha_min": -7.8311710511e-28,
+      "alpha_max": 1.0000004127,
+      "geometric_spout_interior_water_m3": 8.802856458463873e-07,
+      "alpha_outside_1e8_count": 812,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.045613855330188184,
+        -0.0008509128569638688,
+        0.00012290957564463963
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.04869115013522011,
+        -0.004542482915631167,
+        0.009470712724023469
+      ],
+      "wall_alpha_min": 2.45578611301e-132,
+      "wall_alpha_max": 1.00000020635,
+      "max_speed_all_m_s": 0.8015345171182491,
+      "max_speed_air_alpha_lt_001_m_s": 0.8015345171182491,
+      "max_speed_all_xyz_m": [
+        0.048122936359860584,
+        0.0031064157098458682,
+        0.0013856222800517502
+      ],
+      "beyond_lip_water_m3": 5.8411779268336316e-12,
+      "maximum_liquid_s_m": 0.047900690853833285,
+      "max_liquid_speed_m_s": 0.2556331758090834,
+      "outer_alpha_area_m2": 2.6420271150403953e-14,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 13.410125818793821,
+      "connected_lip_arc_alpha0.1_m": 0.00014043050918679156,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04802777774644252,
+        -0.0019390896308156106,
+        0.0003764244950419326
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0297005622182,
+        -0.00721935196865,
+        -0.0372237655973
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0891023472497,
+        -0.176858412893,
+        -0.0286966398367
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 0.0,
+      "connected_lip_arc_alpha0.9_m": 0.0,
+      "lip_front_candidate_alpha0.9_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.9_m_s": null,
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047900690853833285,
+        0.002194960167725217,
+        0.0005438171575253228
+      ],
+      "waterInlet_integrated_outward_m3": -1.2999999999999185e-07,
+      "inlet_integrated_outward_m3": 3.2713791127009613e-12,
+      "atmosphere_integrated_outward_m3": 2.970194137021001e-12,
+      "water_balance_residual_m3": -1.06666175566261e-12
+    },
+    {
+      "time_s": 0.014,
+      "water_volume_m3": 8.904726622867908e-07,
+      "alpha_min": -5.31982966891e-28,
+      "alpha_max": 1.0000003599,
+      "geometric_spout_interior_water_m3": 8.902539365772288e-07,
+      "alpha_outside_1e8_count": 643,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04561377085719034,
+        -0.0021444468238297934,
+        0.0008385174291453623
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.03880544486672719,
+        0.0005034063157619155,
+        0.01848132121724154
+      ],
+      "wall_alpha_min": 8.54047969893e-131,
+      "wall_alpha_max": 1.00000017504,
+      "max_speed_all_m_s": 0.8271790582219556,
+      "max_speed_air_alpha_lt_001_m_s": 0.8271790582219556,
+      "max_speed_all_xyz_m": [
+        0.04800782773057467,
+        -0.00360778968769231,
+        0.001899250904993378
+      ],
+      "beyond_lip_water_m3": 4.300168544692554e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.2401062625836258,
+      "outer_alpha_area_m2": 2.498156221012636e-13,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 24.368024511016944,
+      "connected_lip_arc_alpha0.1_m": 0.0002551813559543561,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.048134666214355006,
+        -0.0013146990925263107,
+        0.00011852180430194594
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.133538726138,
+        0.0556690831291,
+        -0.101100541541
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0854167883622,
+        -0.156446686449,
+        -0.039760914301
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 0.0,
+      "connected_lip_arc_alpha0.9_m": 0.0,
+      "lip_front_candidate_alpha0.9_xyz_m": null,
+      "lip_front_adjacent_U_alpha0.9_m_s": null,
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -1.3999999999999114e-07,
+      "inlet_integrated_outward_m3": 5.2452684325111475e-12,
+      "atmosphere_integrated_outward_m3": 3.3050774016831154e-12,
+      "water_balance_residual_m3": -1.1975784966372145e-12
+    },
+    {
+      "time_s": 0.015,
+      "water_volume_m3": 9.004694763081089e-07,
+      "alpha_min": -8.27180612555e-30,
+      "alpha_max": 1.00000039032,
+      "geometric_spout_interior_water_m3": 9.001995428580263e-07,
+      "alpha_outside_1e8_count": 519,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04610896334923973,
+        -0.0024063513689962204,
+        0.0008284785720061382
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.04177587410215059,
+        -0.008547288613912313,
+        0.01747140090230444
+      ],
+      "wall_alpha_min": 3.77520092116e-129,
+      "wall_alpha_max": 1.00000018194,
+      "max_speed_all_m_s": 0.8895030477374818,
+      "max_speed_air_alpha_lt_001_m_s": 0.8895030477374818,
+      "max_speed_all_xyz_m": [
+        0.048007825948414184,
+        0.0036077891276119108,
+        0.0018992527405622388
+      ],
+      "beyond_lip_water_m3": 3.835181339591588e-12,
+      "maximum_liquid_s_m": 0.048024292048302254,
+      "max_liquid_speed_m_s": 0.20460891983625495,
+      "outer_alpha_area_m2": 1.5933784756346714e-12,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.00561744837777,
+        0.0217626343308,
+        -0.0555378248269
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.5_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0095599819177,
+        0.0386535583696,
+        -0.0274403017092
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 0.5717918686677027,
+      "connected_lip_arc_alpha0.9_m": 5.987790446629448e-06,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.04789417505176712,
+        -0.0008357824589842344,
+        8.938465141191375e-05
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.031739276099,
+        0.113082995431,
+        -0.00363032078032
+      ],
+      "max_wet_lip_angle_deg": 13.535000284809804,
+      "max_wet_lip_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.048024292048302254,
+        -0.001190205301357617,
+        0.0001723979462024789
+      ],
+      "waterInlet_integrated_outward_m3": -1.4999999999998986e-07,
+      "inlet_integrated_outward_m3": 7.941741529573159e-12,
+      "atmosphere_integrated_outward_m3": 3.643947789054084e-12,
+      "water_balance_residual_m3": -1.3482136928000779e-12
+    },
+    {
+      "time_s": 0.016,
+      "water_volume_m3": 9.104654258184099e-07,
+      "alpha_min": -2.07494379612e-27,
+      "alpha_max": 1.00000039777,
+      "geometric_spout_interior_water_m3": 9.101646228232475e-07,
+      "alpha_outside_1e8_count": 442,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04635660135076387,
+        -0.0008508678712821617,
+        0.00012288311206612082
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.03880544486861182,
+        -0.0005034031378617174,
+        0.018481321592769565
+      ],
+      "wall_alpha_min": -2.47167459343e-88,
+      "wall_alpha_max": 1.00000019888,
+      "max_speed_all_m_s": 0.7422431390624593,
+      "max_speed_air_alpha_lt_001_m_s": 0.7422431390624593,
+      "max_speed_all_xyz_m": [
+        0.03868178247103958,
+        -0.010670561370337863,
+        0.01434881751520756
+      ],
+      "beyond_lip_water_m3": 4.146050539628129e-12,
+      "maximum_liquid_s_m": 0.04802101192047049,
+      "max_liquid_speed_m_s": 0.18227770025990944,
+      "outer_alpha_area_m2": 6.6234920634241995e-12,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.00923896390475,
+        0.00975810885967,
+        -0.0652128749391
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.5_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.00330820971749,
+        0.0615601091445,
+        -0.0261718824904
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 0.5717918686677027,
+      "connected_lip_arc_alpha0.9_m": 5.987790446629448e-06,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.04789417505176712,
+        -0.0008357824589842344,
+        8.938465141191375e-05
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0179033213068,
+        0.0844006964466,
+        0.010093225998
+      ],
+      "max_wet_lip_angle_deg": 13.535000284809804,
+      "max_wet_lip_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.04802101192047049,
+        -0.00043816015293691643,
+        5.407615999089811e-05
+      ],
+      "waterInlet_integrated_outward_m3": -1.5999999999998907e-07,
+      "inlet_integrated_outward_m3": 1.1493800698479665e-11,
+      "atmosphere_integrated_outward_m3": 3.974521122277766e-12,
+      "water_balance_residual_m3": -1.5160708889485457e-12
+    },
+    {
+      "time_s": 0.017,
+      "water_volume_m3": 9.204603807495001e-07,
+      "alpha_min": -4.23146119317e-27,
+      "alpha_max": 1.00000045561,
+      "geometric_spout_interior_water_m3": 9.201697326048628e-07,
+      "alpha_outside_1e8_count": 417,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04635660135076387,
+        -0.0008508678712821617,
+        0.00012288311206612082
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.03880544456231796,
+        0.0015099666001085973,
+        0.01848100997062608
+      ],
+      "wall_alpha_min": -1.39578966069e-87,
+      "wall_alpha_max": 1.00000022781,
+      "max_speed_all_m_s": 0.6689013584929879,
+      "max_speed_air_alpha_lt_001_m_s": 0.6689013584929879,
+      "max_speed_all_xyz_m": [
+        0.044871124339045415,
+        -0.00718168479160049,
+        0.007835639035656046
+      ],
+      "beyond_lip_water_m3": 4.698013892766521e-12,
+      "maximum_liquid_s_m": 0.04802101192047049,
+      "max_liquid_speed_m_s": 0.19277236931241765,
+      "outer_alpha_area_m2": 1.523943868602349e-11,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0526813981867,
+        -0.03368094718,
+        -0.0167067934188
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 12.936467431470987,
+      "connected_lip_arc_alpha0.5_m": 0.00013547037015370958,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04802157337651706,
+        -0.0005610403549683991,
+        1.2971261991696394e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        -0.0478642928258,
+        0.00684937257668,
+        0.00132774639059
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0199223695255,
+        -0.0358551856041,
+        0.0551731320973
+      ],
+      "max_wet_lip_angle_deg": 12.936467431470987,
+      "max_wet_lip_xyz_m": [
+        0.04802157337651706,
+        -0.0005610403549683991,
+        1.2971261991696394e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.04802101192047049,
+        -0.00043816015293691643,
+        5.407615999089811e-05
+      ],
+      "waterInlet_integrated_outward_m3": -1.699999999999878e-07,
+      "inlet_integrated_outward_m3": 1.6025938322120942e-11,
+      "atmosphere_integrated_outward_m3": 4.309466402042598e-12,
+      "water_balance_residual_m3": -1.6940568939894427e-12
+    },
+    {
+      "time_s": 0.018,
+      "water_volume_m3": 9.304541962779001e-07,
+      "alpha_min": -4.23343264381e-27,
+      "alpha_max": 1.00000045865,
+      "geometric_spout_interior_water_m3": 9.301870019153679e-07,
+      "alpha_outside_1e8_count": 387,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04561384155141283,
+        -0.0011433374869105311,
+        0.0008054241044573711
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.038805444564895084,
+        -0.0025160478798274123,
+        0.018480413763115374
+      ],
+      "wall_alpha_min": -1.79476175948e-86,
+      "wall_alpha_max": 1.00000019002,
+      "max_speed_all_m_s": 0.8440549183563677,
+      "max_speed_air_alpha_lt_001_m_s": 0.8440549183563677,
+      "max_speed_all_xyz_m": [
+        0.047777592578473145,
+        -0.00433617251514738,
+        0.0027983910546854483
+      ],
+      "beyond_lip_water_m3": 5.02658771065266e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.1894164400056543,
+      "outer_alpha_area_m2": 2.6271562660246644e-11,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0680244596469,
+        0.0518733341286,
+        -0.0129522341223
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0229688136046,
+        -0.0589094996882,
+        0.0348843435745
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0229688136046,
+        -0.0589094996882,
+        0.0348843435745
+      ],
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -1.799999999999865e-07,
+      "inlet_integrated_outward_m3": 2.1700990768054944e-11,
+      "atmosphere_integrated_outward_m3": 4.642364021786564e-12,
+      "water_balance_residual_m3": -1.8705784270542475e-12
+    },
+    {
+      "time_s": 0.019,
+      "water_volume_m3": 9.404467324695601e-07,
+      "alpha_min": -4.23548756319e-27,
+      "alpha_max": 1.00000050198,
+      "geometric_spout_interior_water_m3": 9.401947805089448e-07,
+      "alpha_outside_1e8_count": 347,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04561384155141283,
+        -0.0011433374869105311,
+        0.0008054241044573711
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.03880544533413734,
+        -0.0035216818374555997,
+        0.018479569095235075
+      ],
+      "wall_alpha_min": -1.5466735274e-85,
+      "wall_alpha_max": 1.00000017927,
+      "max_speed_all_m_s": 0.9175818505460507,
+      "max_speed_air_alpha_lt_001_m_s": 0.9175818505460507,
+      "max_speed_all_xyz_m": [
+        0.04764232459317248,
+        -0.004771403770312386,
+        0.00350248494290818
+      ],
+      "beyond_lip_water_m3": 4.849675685246503e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.20791248894954972,
+      "outer_alpha_area_m2": 4.000209845115883e-11,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 23.433392330276664,
+      "connected_lip_arc_alpha0.1_m": 0.00024539391064494855,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04813147633230624,
+        -0.001196761367230959,
+        0.0001059425080956231
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.00468781046308,
+        -0.0425800009129,
+        0.0440225808839
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0499202397148,
+        -0.0727423124463,
+        0.0238064762942
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0499202397148,
+        -0.0727423124463,
+        0.0238064762942
+      ],
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -1.8999999999998524e-07,
+      "inlet_integrated_outward_m3": 2.8669653090858148e-11,
+      "atmosphere_integrated_outward_m3": 4.9727775726126e-12,
+      "water_balance_residual_m3": -2.0353108921905146e-12
+    },
+    {
+      "time_s": 0.02,
+      "water_volume_m3": 9.50437917052281e-07,
+      "alpha_min": -4.06453680364e-27,
+      "alpha_max": 1.00000047772,
+      "geometric_spout_interior_water_m3": 9.501939630396655e-07,
+      "alpha_outside_1e8_count": 295,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04561384155141283,
+        -0.0011433374869105311,
+        0.0008054241044573711
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.038805444439264127,
+        0.0025160501245982247,
+        0.018480411012328668
+      ],
+      "wall_alpha_min": -2.27935262896e-39,
+      "wall_alpha_max": 1.00000015824,
+      "max_speed_all_m_s": 1.1321951171833895,
+      "max_speed_air_alpha_lt_001_m_s": 1.1321951171833895,
+      "max_speed_all_xyz_m": [
+        0.04777810294106948,
+        0.00469070768888049,
+        0.0031933061064462736
+      ],
+      "beyond_lip_water_m3": 4.708788663943577e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.23026420711883655,
+      "outer_alpha_area_m2": 5.5390901854652423e-11,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.1_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0474962072931,
+        -0.00453203337382,
+        -0.0168256243895
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.094462804494,
+        -0.0790722128634,
+        0.00253722734772
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.094462804494,
+        -0.0790722128634,
+        0.00253722734772
+      ],
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -1.999999999999844e-07,
+      "inlet_integrated_outward_m3": 3.7064566136752224e-11,
+      "atmosphere_integrated_outward_m3": 5.261764846678611e-12,
+      "water_balance_residual_m3": -2.166827850399483e-12
+    },
+    {
+      "time_s": 0.021,
+      "water_volume_m3": 9.604276467427088e-07,
+      "alpha_min": -5.95919045489e-23,
+      "alpha_max": 1.00000043106,
+      "geometric_spout_interior_water_m3": 9.601957175847036e-07,
+      "alpha_outside_1e8_count": 249,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.04561384155141283,
+        -0.0011433374869105311,
+        0.0008054241044573711
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.03843323340880602,
+        -0.011124033162776962,
+        0.01438248248516227
+      ],
+      "wall_alpha_min": -7.96762098454e-39,
+      "wall_alpha_max": 1.00000016794,
+      "max_speed_all_m_s": 1.2041438508986595,
+      "max_speed_air_alpha_lt_001_m_s": 1.2041438508986595,
+      "max_speed_all_xyz_m": [
+        0.04777810293790767,
+        -0.004690707687649192,
+        0.0031933060821847325
+      ],
+      "beyond_lip_water_m3": 4.4528151346681924e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.24419075934035436,
+      "outer_alpha_area_m2": 7.0668005653108e-11,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        -0.0444999576417,
+        -0.00784360768279,
+        -0.0507839021234
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0773900455874,
+        -0.067825186231,
+        0.00511371061668
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0773900455874,
+        -0.067825186231,
+        0.00511371061668
+      ],
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -2.099999999999837e-07,
+      "inlet_integrated_outward_m3": 4.698342741736448e-11,
+      "atmosphere_integrated_outward_m3": 5.494750283775315e-12,
+      "water_balance_residual_m3": -2.2852907041729693e-12
+    },
+    {
+      "time_s": 0.022,
+      "water_volume_m3": 9.704159347186753e-07,
+      "alpha_min": -2.09590331306e-23,
+      "alpha_max": 1.00000046812,
+      "geometric_spout_interior_water_m3": 9.70198237870297e-07,
+      "alpha_outside_1e8_count": 236,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.03868127248032078,
+        -0.009845281598531019,
+        0.012154259238297636
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.04745728221870596,
+        -0.006308979603968705,
+        0.010713814892587617
+      ],
+      "wall_alpha_min": 4.94163494914e-119,
+      "wall_alpha_max": 1.00000023406,
+      "max_speed_all_m_s": 0.7861301901776002,
+      "max_speed_air_alpha_lt_001_m_s": 0.7861301901776002,
+      "max_speed_all_xyz_m": [
+        0.03843323340880602,
+        -0.011124033162776962,
+        0.01438248248516227
+      ],
+      "beyond_lip_water_m3": 4.027235231754272e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.2377602947893729,
+      "outer_alpha_area_m2": 8.19245519362701e-11,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.1_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.00746878143961,
+        -0.00995828473641,
+        -0.00557532500904
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.0683949987156,
+        -0.0846370238982,
+        0.0192320848195
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0683949987156,
+        -0.0846370238982,
+        0.0192320848195
+      ],
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -2.19999999999983e-07,
+      "inlet_integrated_outward_m3": 5.8261168074385e-11,
+      "atmosphere_integrated_outward_m3": 5.7734691661743374e-12,
+      "water_balance_residual_m3": -2.4408551975874205e-12
+    },
+    {
+      "time_s": 0.023,
+      "water_volume_m3": 9.804032267719331e-07,
+      "alpha_min": -1.49044716617e-26,
+      "alpha_max": 1.00000055255,
+      "geometric_spout_interior_water_m3": 9.801756658216123e-07,
+      "alpha_outside_1e8_count": 218,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.03868127248032078,
+        -0.009845281598531019,
+        0.012154259238297636
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.04770415929047985,
+        0.00655445017393012,
+        0.011465793442337356
+      ],
+      "wall_alpha_min": 8.98130639022e-118,
+      "wall_alpha_max": 1.00000027628,
+      "max_speed_all_m_s": 0.8775153693969139,
+      "max_speed_air_alpha_lt_001_m_s": 0.8775153693969139,
+      "max_speed_all_xyz_m": [
+        0.04801327944571258,
+        0.0044813298758991215,
+        0.00303615289282099
+      ],
+      "beyond_lip_water_m3": 3.8493410388685086e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.25693544440129373,
+      "outer_alpha_area_m2": 8.938824802555966e-11,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.1_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0206515123824,
+        -0.0217076114303,
+        -0.0317518932791
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.5_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.114339598271,
+        -0.0975727111553,
+        0.00424564767169
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.114339598271,
+        -0.0975727111553,
+        0.00424564767169
+      ],
+      "max_wet_lip_angle_deg": 1.7481320778825147,
+      "max_wet_lip_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -2.299999999999827e-07,
+      "inlet_integrated_outward_m3": 7.062282598338109e-11,
+      "atmosphere_integrated_outward_m3": 5.996542937650202e-12,
+      "water_balance_residual_m3": -2.564070259010696e-12
+    },
+    {
+      "time_s": 0.024,
+      "water_volume_m3": 9.90389840109415e-07,
+      "alpha_min": -3.61044311734e-23,
+      "alpha_max": 1.00000063949,
+      "geometric_spout_interior_water_m3": 9.901328297096197e-07,
+      "alpha_outside_1e8_count": 194,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.03868127248032078,
+        -0.009845281598531019,
+        0.012154259238297636
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.03843323330811149,
+        0.011124032944375513,
+        0.014382482448199127
+      ],
+      "wall_alpha_min": 1.04250466733e-117,
+      "wall_alpha_max": 1.00000031974,
+      "max_speed_all_m_s": 0.7966630293314391,
+      "max_speed_air_alpha_lt_001_m_s": 0.7966630293314391,
+      "max_speed_all_xyz_m": [
+        0.04753119650524754,
+        -0.005327735186919025,
+        0.004299395313276457
+      ],
+      "beyond_lip_water_m3": 4.051955357740694e-12,
+      "maximum_liquid_s_m": 0.047904244402696125,
+      "max_liquid_speed_m_s": 0.26154849405304365,
+      "outer_alpha_area_m2": 9.8609204531837e-11,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0236796748525,
+        -0.0931254313221,
+        0.045110347017
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 12.493116621040462,
+      "connected_lip_arc_alpha0.5_m": 0.00013082761132367083,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04801719328719262,
+        -0.0004376932912388652,
+        2.2152575015727786e-06
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.05135960236,
+        0.0315261609065,
+        -0.00182583380784
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.123664566155,
+        -0.0982330721364,
+        -0.00993798948533
+      ],
+      "max_wet_lip_angle_deg": 12.493116621040462,
+      "max_wet_lip_xyz_m": [
+        0.04801719328719262,
+        -0.0004376932912388652,
+        2.2152575015727786e-06
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.047904244402696125,
+        0.0006858368734901856,
+        6.878102995942867e-05
+      ],
+      "waterInlet_integrated_outward_m3": -2.3999999999998235e-07,
+      "inlet_integrated_outward_m3": 8.369684263693268e-11,
+      "atmosphere_integrated_outward_m3": 6.199236733513542e-12,
+      "water_balance_residual_m3": -2.6740223274298916e-12
+    },
+    {
+      "time_s": 0.025,
+      "water_volume_m3": 1.0003760338606083e-06,
+      "alpha_min": -9.84387156056e-27,
+      "alpha_max": 1.00000072228,
+      "geometric_spout_interior_water_m3": 1.0000759652764086e-06,
+      "alpha_outside_1e8_count": 177,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.03868127248032078,
+        -0.009845281598531019,
+        0.012154259238297636
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.03880551917273251,
+        -0.008546248139206632,
+        0.017472002360149667
+      ],
+      "wall_alpha_min": -1.96085949471e-85,
+      "wall_alpha_max": 1.00000036114,
+      "max_speed_all_m_s": 1.1532999338807606,
+      "max_speed_air_alpha_lt_001_m_s": 1.1532999338807606,
+      "max_speed_all_xyz_m": [
+        0.04816241440472488,
+        0.0010453046494604031,
+        8.172290409107135e-05
+      ],
+      "beyond_lip_water_m3": 4.744087525237245e-12,
+      "maximum_liquid_s_m": 0.04802655956241476,
+      "max_liquid_speed_m_s": 0.25570931437286276,
+      "outer_alpha_area_m2": 1.1142410142109354e-10,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.797094296570318,
+      "connected_lip_arc_alpha0.1_m": 0.00027014653975356153,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.04814769072739379,
+        -0.0008118415189548755,
+        2.781982623312046e-06
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0140492733458,
+        -0.0795420400097,
+        0.0121093775839
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.5_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        0.000223382839695,
+        0.0115831181308,
+        -0.0522178908147
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0967956068182,
+        -0.110288759922,
+        -0.00934965086752
+      ],
+      "max_wet_lip_angle_deg": 13.535000284809804,
+      "max_wet_lip_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.04802655956241476,
+        0.0006922838839963559,
+        6.65566193260845e-05
+      ],
+      "waterInlet_integrated_outward_m3": -2.499999999999815e-07,
+      "inlet_integrated_outward_m3": 9.7219599352809e-11,
+      "atmosphere_integrated_outward_m3": 6.385993191520403e-12,
+      "water_balance_residual_m3": -2.7707579593227393e-12
+    },
+    {
+      "time_s": 0.03,
+      "water_volume_m3": 1.0503037437970521e-06,
+      "alpha_min": -5.41799508981e-22,
+      "alpha_max": 1.00000086198,
+      "geometric_spout_interior_water_m3": 1.0495447183707536e-06,
+      "alpha_outside_1e8_count": 119,
+      "alpha_outside_1e6_count": 0,
+      "worst_max_alpha_xyz_m": [
+        0.03868127248032078,
+        -0.009845281598531019,
+        0.012154259238297636
+      ],
+      "worst_min_alpha_xyz_m": [
+        0.0479495843787113,
+        0.006308490179575146,
+        0.01071399738811515
+      ],
+      "wall_alpha_min": 2.10267756763e-111,
+      "wall_alpha_max": 1.00000043099,
+      "max_speed_all_m_s": 1.9267470657693295,
+      "max_speed_air_alpha_lt_001_m_s": 1.9267470657693295,
+      "max_speed_all_xyz_m": [
+        0.048162414404713375,
+        -0.0010453046494602325,
+        8.172290409106364e-05
+      ],
+      "beyond_lip_water_m3": 1.4720814929482333e-11,
+      "maximum_liquid_s_m": 0.04803566331330839,
+      "max_liquid_speed_m_s": 0.16389628985575708,
+      "outer_alpha_area_m2": 4.5428407785910575e-10,
+      "outer_area_alpha0.1_m2": 0.0,
+      "attached_length_alpha0.1_m": 0.0,
+      "contact_front_alpha0.1_xyz_m": null,
+      "connected_lower_lip_area_alpha0.1_m2": 0.0,
+      "connected_lip_angle_alpha0.1_deg": 25.8126417650238,
+      "connected_lip_arc_alpha0.1_m": 0.0002703093524624794,
+      "lip_front_candidate_alpha0.1_xyz_m": [
+        0.048147287420545935,
+        0.002062103035265065,
+        0.0003749361883830099
+      ],
+      "lip_front_adjacent_U_alpha0.1_m_s": [
+        0.0719041987689,
+        0.0991848771631,
+        0.0504439898022
+      ],
+      "outer_area_alpha0.5_m2": 0.0,
+      "attached_length_alpha0.5_m": 0.0,
+      "contact_front_alpha0.5_xyz_m": null,
+      "connected_lower_lip_area_alpha0.5_m2": 0.0,
+      "connected_lip_angle_alpha0.5_deg": 13.535000284809804,
+      "connected_lip_arc_alpha0.5_m": 0.00014173819153698078,
+      "lip_front_candidate_alpha0.5_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "lip_front_adjacent_U_alpha0.5_m_s": [
+        -0.0157343814248,
+        0.000950060393819,
+        -0.00896279005605
+      ],
+      "outer_area_alpha0.9_m2": 0.0,
+      "attached_length_alpha0.9_m": 0.0,
+      "contact_front_alpha0.9_xyz_m": null,
+      "connected_lower_lip_area_alpha0.9_m2": 0.0,
+      "connected_lip_angle_alpha0.9_deg": 1.7481320778825147,
+      "connected_lip_arc_alpha0.9_m": 1.830639631126789e-05,
+      "lip_front_candidate_alpha0.9_xyz_m": [
+        0.047906018159770344,
+        0.0011865963274960336,
+        0.0001329365177707477
+      ],
+      "lip_front_adjacent_U_alpha0.9_m_s": [
+        0.0708637856017,
+        -0.0525758928179,
+        0.00137324075195
+      ],
+      "max_wet_lip_angle_deg": 13.535000284809804,
+      "max_wet_lip_xyz_m": [
+        0.04802625084644615,
+        -0.000684637185286728,
+        2.1163052791695285e-05
+      ],
+      "maximum_liquid_s_xyz_m": [
+        0.04803566331330839,
+        0.0008046354201582096,
+        7.66724702770313e-05
+      ],
+      "waterInlet_integrated_outward_m3": -2.999999999999799e-07,
+      "inlet_integrated_outward_m3": 1.6848630089179243e-10,
+      "atmosphere_integrated_outward_m3": 7.0290722811429225e-12,
+      "water_balance_residual_m3": -3.15104088532274e-12
+    }
+  ]
+}

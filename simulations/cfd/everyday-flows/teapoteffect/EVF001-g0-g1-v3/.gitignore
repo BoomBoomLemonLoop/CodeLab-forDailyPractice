@@ -1,2 +1,8 @@
 __pycache__/
 .mplcache/
+archive_local/
+artifacts/paraview/
+artifacts/solid_mesh.npz
+artifacts/spout_solid_*.stl
+artifacts/*.log
+artifacts/immersion_curves.svg

@@ -1,0 +1,24 @@
+FoamFile
+{
+ version 2.0; format ascii; class dictionary; location "system"; object blockMeshDict;
+}
+convertToMeters 1;
+vertices
+(
+(0.03831039980913284 -0.03 -0.02)
+(0.07 -0.03 -0.02)
+(0.03831039980913284 0.03 -0.02)
+(0.07 0.03 -0.02)
+(0.03831039980913284 -0.03 0.045)
+(0.07 -0.03 0.045)
+(0.03831039980913284 0.03 0.045)
+(0.07 0.03 0.045)
+);
+blocks (hex (0 1 3 2 4 5 7 6) (32 60 65) simpleGrading (1 1 1));
+edges ();
+boundary
+(
+inlet { type patch; faces ((0 4 6 2)); }
+atmosphere { type patch; faces ((1 3 7 5) (0 1 5 4) (2 6 7 3) (0 2 3 1) (4 5 7 6)); }
+);
+mergePatchPairs ();

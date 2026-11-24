@@ -1,0 +1,22 @@
+{
+  "case1": {
+    "mean_inlet_m_s": 0.283486444581543,
+    "Ca_mean": 0.00392943710683861,
+    "We_mean_R": 0.6683652927746773,
+    "Re_mean_R": 170.09186674892578,
+    "Bo_R": 0.04889303999999999,
+    "dynamic_head_mean_m": 0.004096053224336607,
+    "sigma_over_R_pressure_scale_Pa": 120.0,
+    "warning": "R-based mean-inlet scales only. Actual interface has two evolving curvatures; sigma/R is not a prescribed Laplace jump or proven spill threshold."
+  },
+  "case2": {
+    "mean_inlet_m_s": 0.05154739755766045,
+    "Ca_mean": 0.0007145042050353491,
+    "We_mean_R": 0.02209849938814636,
+    "Re_mean_R": 30.928438534596268,
+    "Bo_R": 0.04889303999999999,
+    "dynamic_head_mean_m": 0.0001354298774193424,
+    "sigma_over_R_pressure_scale_Pa": 120.0,
+    "warning": "R-based mean-inlet scales only. Actual interface has two evolving curvatures; sigma/R is not a prescribed Laplace jump or proven spill threshold."
+  }
+}

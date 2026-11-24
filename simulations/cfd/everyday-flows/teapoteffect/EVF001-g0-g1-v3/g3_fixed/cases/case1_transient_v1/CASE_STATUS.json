@@ -1,0 +1,24 @@
+{
+  "source_case": "case1",
+  "source_sha256": "62f61119a9a7a4bd9997b6cb84b44b539c8e08c6af098f55be4774e5518b426a",
+  "mesh_cells": 229150,
+  "s_in_m": 0.03831039980913284,
+  "normal_outward": [
+    -1,
+    0,
+    0
+  ],
+  "wet_faces": 214,
+  "target_Q_m3_s": 1e-05,
+  "raw_mapped_Q_m3_s": 9.986950813212407e-06,
+  "normalization_factor": 1.0013066237164532,
+  "mapped_Q_m3_s": 9.999999999999999e-06,
+  "relative_Q_error": 1.6940658945086004e-16,
+  "wet_area_m2": 3.527505526679096e-05,
+  "quadrature_subdivision": 48,
+  "quadrature_half_vs_full_Q_relative_difference": 8.804836216991439e-05,
+  "initial_water_volume_m3": 1.3562563000412032e-07,
+  "initialization": "inner connected seed; external air dry; binary cell centre alpha",
+  "status": "TRANSIENT_FIELDS_ANALYZED_NOT_PHYSICALLY_VALIDATED",
+  "analyzed_until_s": 0.04
+}
